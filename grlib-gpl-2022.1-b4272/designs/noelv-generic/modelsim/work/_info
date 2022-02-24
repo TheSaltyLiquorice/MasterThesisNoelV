@@ -1,0 +1,786 @@
+m255
+K4
+z0
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.3 2021.07, Jul 13 2021
+13
+cModel Technology
+Z1 d/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic
+T_opt
+!s110 1645711630
+VEd6?]D8bWREMHj@izN<Ef1
+04 9 5 work testbench behav 1
+=1-54bf6480f145-6217910d-d07c7-1091
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;2021.3;73
+Eahbrom
+Z2 w1645691001
+Z3 DPx5 grlib 7 devices 0 22 fG?4QD?E];dALf0[k]G3f1
+Z4 DPx5 grlib 7 version 0 22 6kROJZd;CaU0KdF`V<KgE3
+Z5 DPx5 grlib 6 stdlib 0 22 5jE6;>SXVmbThTo^Jacc70
+Z6 DPx5 grlib 6 config 0 22 F8Y^D>^K7NzLEJ][XFjWe3
+Z7 DPx5 grlib 12 config_types 0 22 Tg:Y_1760Q^;DG23ZPcnN2
+Z8 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z9 DPx5 grlib 4 amba 0 22 6O_S<EWB;28]:U9Y4=]DQ0
+Z10 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z11 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 99
+R1
+Z12 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/ahbrom.vhd
+Z13 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/ahbrom.vhd
+l0
+Z14 L21 1
+Vh2<flEEW]a7Kn58DazFHd1
+!s100 i;3<XP`U^8o=`zO1[m:db2
+Z15 OL;C;2021.3;73
+31
+Z16 !s110 1645711612
+!i10b 1
+Z17 !s108 1645711612.000000
+Z18 !s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/ahbrom.vhd|
+Z19 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/ahbrom.vhd|
+!i113 0
+Z20 !s102 -cover s
+Z21 o-work work -93 -source -nowarn 1 -nowarn 5 -cover s
+Z22 tShow_source 1 Show_Warning1 0 Show_Warning5 0 Explicit 1 Quiet 1 CvgOpt 0
+Artl
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+Z23 DEx4 work 6 ahbrom 0 22 h2<flEEW]a7Kn58DazFHd1
+!i122 99
+l55
+L37 162
+Vi]P?;;n4GD:9kLoi]=F7]3
+!s100 gb2CW=diS@3RZK4><E2<32
+R15
+31
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R20
+R21
+R22
+Eahbrom128
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+!i122 101
+R1
+Z24 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/ahbrom128.vhd
+Z25 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/ahbrom128.vhd
+l0
+R14
+V5AN9QC[T_oEER6ZHOXX550
+!s100 [9;;lPmPli7eebA62c_ZT0
+R15
+31
+R16
+!i10b 1
+R17
+Z26 !s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/ahbrom128.vhd|
+Z27 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/ahbrom128.vhd|
+!i113 0
+R20
+R21
+R22
+Artl
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+Z28 DEx4 work 9 ahbrom128 0 22 5AN9QC[T_oEER6ZHOXX550
+!i122 101
+l56
+L38 97
+VR47]XPea9G>3fFJ1NZGE:2
+!s100 ?W6dU[L^[<>CV:b2N0WA63
+R15
+31
+R16
+!i10b 1
+R17
+R26
+R27
+!i113 0
+R20
+R21
+R22
+Eahbrom64
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+!i122 100
+R1
+Z29 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/ahbrom64.vhd
+Z30 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/ahbrom64.vhd
+l0
+R14
+V13amZ:JLWBh5z9o6<HFWK0
+!s100 33U3KoQz2bMeX2_C6=0933
+R15
+31
+R16
+!i10b 1
+R17
+Z31 !s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/ahbrom64.vhd|
+Z32 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/ahbrom64.vhd|
+!i113 0
+R20
+R21
+R22
+Artl
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+Z33 DEx4 work 8 ahbrom64 0 22 13amZ:JLWBh5z9o6<HFWK0
+!i122 100
+l56
+L38 119
+V<VZR5JW`:I8j40:n7bhVQ2
+!s100 ?BcI9[a=i]?6Df`TDDEg71
+R15
+31
+R16
+!i10b 1
+R17
+R31
+R32
+!i113 0
+R20
+R21
+R22
+Pcfgmap
+R4
+R5
+R8
+R9
+Z34 DPx4 work 12 config_local 0 22 KMbkG247hAdACM@>UbHbi2
+R7
+R6
+R10
+R11
+Z35 DPx7 techmap 7 gencomp 0 22 dgoLWDOTi6Y1oeMMWZh>S2
+Z36 DPx4 work 6 config 0 22 Vc1OY:eFPTT:1eC@7k0V>2
+!i122 97
+R2
+R1
+8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/core/cfgmap.vhd
+F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/core/cfgmap.vhd
+l0
+L24 1
+VXOUM?bYNBg<8LBm=KMT<c1
+!s100 W3F9a2LY@]lI`gSWikIh;3
+R15
+31
+R16
+!i10b 1
+Z37 !s108 1645711611.000000
+!s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/core/cfgmap.vhd|
+!s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/core/cfgmap.vhd|
+!i113 0
+R20
+R21
+R22
+Pconfig
+R7
+R6
+R10
+R11
+R35
+!i122 94
+R2
+R1
+8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/config.vhd
+F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/config.vhd
+l0
+L7 1
+VVc1OY:eFPTT:1eC@7k0V>2
+!s100 c<^he=SX^[7OQFEWDEK=R1
+R15
+31
+Z38 !s110 1645711611
+!i10b 1
+R37
+!s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/config.vhd|
+!s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/config.vhd|
+!i113 0
+R20
+R21
+R22
+Pconfig_local
+R36
+R4
+R5
+R8
+R9
+R7
+R6
+R10
+R11
+R35
+!i122 95
+R2
+R1
+8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/cfg/config_local.vhd
+F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/cfg/config_local.vhd
+l0
+L9 1
+VKMbkG247hAdACM@>UbHbi2
+!s100 oFEaagj?eOORjL;aX8ZDS1
+R15
+31
+R38
+!i10b 1
+R37
+!s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/cfg/config_local.vhd|
+!s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/cfg/config_local.vhd|
+!i113 0
+R20
+R21
+R22
+Ecpu_disas
+Z39 w1645690999
+Z40 DPx5 grlib 5 stdio 0 22 `0k2b<T_i>Xf@bkA1J2UL3
+Z41 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z42 DPx5 grlib 7 testlib 0 22 IgZTJKXGzz75NP>P=]^Bz2
+Z43 DPx5 grlib 11 sparc_disas 0 22 a^ga1CLYfSoLhR8ieQoD91
+Z44 DPx5 grlib 5 sparc 0 22 aZTlRN4MdQ]<9QLAYYGF22
+R4
+R5
+R8
+R10
+R11
+!i122 93
+R1
+Z45 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/work/debug/cpu_disas.vhd
+Z46 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/work/debug/cpu_disas.vhd
+l0
+L37 1
+V5<2h@_S53cH:_KEIBYeGD3
+!s100 eJZn@Ri=;Z4HGU2Akl:OM3
+R15
+31
+R38
+!i10b 1
+R37
+Z47 !s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/work/debug/cpu_disas.vhd|
+Z48 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/work/debug/cpu_disas.vhd|
+!i113 0
+R20
+R21
+R22
+Abehav
+R40
+R41
+R42
+R43
+R44
+R4
+R5
+R8
+R10
+R11
+DEx4 work 9 cpu_disas 0 22 5<2h@_S53cH:_KEIBYeGD3
+!i122 93
+l54
+L53 25
+VHiV<SIaYj90oP<4L4z[X@2
+!s100 N]9aM4=mf05mk2d0Fez^j3
+R15
+31
+R38
+!i10b 1
+R37
+R47
+R48
+!i113 0
+R20
+R21
+R22
+Pdebug
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+!i122 91
+R39
+R1
+8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/work/debug/debug.vhd
+F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/work/debug/debug.vhd
+l0
+L32 1
+V@ciKTMomhWXAbiCjH@7n<3
+!s100 Z[kYcla23>WV4DYFahJAn0
+R15
+31
+R38
+!i10b 1
+R37
+!s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/work/debug/debug.vhd|
+!s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/work/debug/debug.vhd|
+!i113 0
+R20
+R21
+R22
+Egaisler_cpu_disas
+R39
+R40
+R41
+R42
+R43
+R44
+R4
+R5
+R8
+R10
+R11
+!i122 93
+R1
+R45
+R46
+l0
+L91 1
+VKncIK4]]gDDS^FK?UhH9n0
+!s100 Ko^gVd:iEeW=EU<m=noO?3
+R15
+31
+R38
+!i10b 1
+R37
+R47
+R48
+!i113 0
+R20
+R21
+R22
+Abehav
+R40
+R41
+R42
+R43
+R44
+R4
+R5
+R8
+R10
+R11
+DEx4 work 17 gaisler_cpu_disas 0 22 KncIK4]]gDDS^FK?UhH9n0
+!i122 93
+l108
+L107 25
+VKEYkc>T:T:_Zc6_9;=S=I3
+!s100 b<Fo9`:KMhhLP136ziePK3
+R15
+31
+R38
+!i10b 1
+R37
+R47
+R48
+!i113 0
+R20
+R21
+R22
+Egrtestmod
+R39
+R35
+R3
+R6
+R7
+R9
+R40
+R4
+R8
+R5
+Z49 DPx7 gaisler 3 sim 0 22 [EzH`l8Ul9=XP5eBnj84D3
+R10
+R11
+!i122 92
+R1
+Z50 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/work/debug/grtestmod.vhd
+Z51 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/work/debug/grtestmod.vhd
+l0
+L70 1
+VKQlbA]J^kR;j87bC2F0BW0
+!s100 A[S4]VoMUcAO_cVQJGJca2
+R15
+31
+R38
+!i10b 1
+R37
+Z52 !s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/work/debug/grtestmod.vhd|
+Z53 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/work/debug/grtestmod.vhd|
+!i113 0
+R20
+R21
+R22
+Asim
+R41
+R42
+R35
+R3
+R6
+R7
+R9
+R40
+R4
+R8
+R5
+R49
+R10
+R11
+DEx4 work 9 grtestmod 0 22 KQlbA]J^kR;j87bC2F0BW0
+!i122 92
+l106
+L92 104
+VjaBzhdj4R^`zo9JEFdcP92
+!s100 2HM?9IhRkSB3FJC8:82eK2
+R15
+31
+R38
+!i10b 1
+R37
+R52
+R53
+!i113 0
+R20
+R21
+R22
+Enoelvcore
+Z54 w1645710873
+Z55 DPx4 work 6 cfgmap 0 22 XOUM?bYNBg<8LBm=KMT<c1
+Z56 DPx4 work 3 rev 0 22 1kGgZRY=0Le9?M[[3k@?F0
+R34
+R36
+R40
+R49
+Z57 DPx7 gaisler 9 noelv_cfg 0 22 GdQ6^mJK^:[hkflH=U0>e2
+Z58 DPx7 gaisler 5 noelv 0 22 V;m2c858imi^6aF?<dWTe3
+Z59 DPx7 gaisler 7 l2cache 0 22 lPMzVa:Q;DUma36]amSBn3
+Z60 DPx7 gaisler 4 plic 0 22 ]komObgVf>W=8]G3iHXPc0
+Z61 DPx7 gaisler 3 axi 0 22 `kB5R3L`37<1N_OlWgb7e2
+Z62 DPx7 gaisler 4 jtag 0 22 4^5i?Z6Y2oT=@J4TkoH>93
+Z63 DPx7 gaisler 3 net 0 22 3=>0@GHL7<lA@GLmT`3Tc0
+Z64 DPx7 gaisler 4 misc 0 22 RUcZj;?>5>[OVHoD9Pg:]0
+Z65 DPx7 gaisler 4 uart 0 22 TE`Rjn4JW4<@kbkRmzM[m2
+Z66 DPx7 gaisler 5 leon3 0 22 :338JJlg11De970;D9lIK0
+R35
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+!i122 98
+R1
+Z67 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/core/noelvcore.vhd
+Z68 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/core/noelvcore.vhd
+l0
+L54 1
+VVX>>?GRCD6?8=?UK>F8n<1
+!s100 JnA@RSLW]55Fa1Ufa8Sk:1
+R15
+31
+R16
+!i10b 1
+R17
+Z69 !s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/core/noelvcore.vhd|
+Z70 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/core/noelvcore.vhd|
+!i113 0
+R20
+R21
+R22
+Artl
+R55
+R56
+R34
+R36
+R40
+R49
+R57
+R58
+R59
+R60
+R61
+R62
+R63
+R64
+R65
+R66
+R35
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+Z71 DEx4 work 9 noelvcore 0 22 VX>>?GRCD6?8=?UK>F8n<1
+!i122 98
+l192
+L112 499
+VQzfiRnTc]7DgEBS`1jcgd3
+!s100 ANil4e`i3V=`P:`Q?02M70
+R15
+31
+R16
+!i10b 1
+R17
+R69
+R70
+!i113 0
+R20
+R21
+R22
+Enoelvmp
+Z72 w1645711138
+R34
+R55
+R36
+R40
+R49
+R57
+R58
+R59
+R60
+R61
+R62
+R63
+R64
+R65
+R66
+R35
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+!i122 102
+R1
+Z73 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/noelvmp.vhd
+Z74 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/noelvmp.vhd
+l0
+L52 1
+VhdkhDFY[b3Ioeec7<MZ]Z1
+!s100 RV7U7BYzn=^gFW40TWDd`3
+R15
+31
+R16
+!i10b 1
+R17
+Z75 !s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/noelvmp.vhd|
+Z76 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/noelvmp.vhd|
+!i113 0
+R20
+R21
+R22
+Artl
+R28
+R33
+R23
+R56
+R71
+R34
+R55
+R36
+R40
+R49
+R57
+R58
+R59
+R60
+R61
+R62
+R63
+R64
+R65
+R66
+R35
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+Z77 DEx4 work 7 noelvmp 0 22 hdkhDFY[b3Ioeec7<MZ]Z1
+!i122 102
+l157
+L102 384
+VN_TTJ=dJM1hh8[QV]IHcH1
+!s100 _ODaj5=ZzcmJgMGLHLj][3
+R15
+31
+R16
+!i10b 1
+R17
+R75
+R76
+!i113 0
+R20
+R21
+R22
+Prev
+!i122 96
+R2
+R1
+8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/core/rev.vhd
+F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/core/rev.vhd
+l0
+L1 1
+V1kGgZRY=0Le9?M[[3k@?F0
+!s100 ;z:TWB8Qm4c9IH9d0X:5Y2
+R15
+31
+R38
+!i10b 1
+R37
+!s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/core/rev.vhd|
+!s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/rtl/core/rev.vhd|
+!i113 0
+R20
+R21
+R22
+Etestbench
+Z78 w1645711567
+R36
+Z79 DPx4 work 5 debug 0 22 @ciKTMomhWXAbiCjH@7n<3
+R40
+R49
+R35
+R3
+R64
+R65
+R4
+R5
+R6
+R7
+R9
+Z80 DPx7 gaisler 7 libdcom 0 22 BQ5DJEbaTd5L=Eo_NO0bd2
+R8
+R10
+R11
+!i122 103
+R1
+Z81 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/tb/testbench.vhd
+Z82 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/tb/testbench.vhd
+l0
+L41 1
+VNO=CToR933j>H2Nk^?QFY1
+!s100 ;lSMV4jMCDf4==TmK4:P80
+R15
+31
+R16
+!i10b 1
+R17
+Z83 !s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/tb/testbench.vhd|
+Z84 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic/tb/testbench.vhd|
+!i113 0
+R20
+R21
+R22
+Abehav
+R34
+R55
+R57
+R58
+R59
+R60
+R61
+R62
+R63
+R66
+R77
+R36
+R79
+R40
+R49
+R35
+R3
+R64
+R65
+R4
+R5
+R6
+R7
+R9
+R80
+R8
+R10
+R11
+DEx4 work 9 testbench 0 22 NO=CToR933j>H2Nk^?QFY1
+!i122 103
+l100
+L54 356
+V8bWUd=HBfn1;E>^MjPWYL3
+!s100 dVknem>09UG@dldQU7Ol;3
+R15
+31
+R16
+!i10b 1
+R17
+R83
+R84
+!i113 0
+R20
+R21
+R22

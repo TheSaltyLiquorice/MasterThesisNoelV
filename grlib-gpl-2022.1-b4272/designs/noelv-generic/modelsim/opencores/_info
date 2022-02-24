@@ -1,0 +1,728 @@
+m255
+K4
+z0
+!s11e vcom 2021.3 2021.07, Jul 13 2021
+13
+cModel Technology
+Z0 d/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic
+Ecan_acf
+Z1 w1645690999
+Z2 DPx5 grlib 7 version 0 22 6kROJZd;CaU0KdF`V<KgE3
+Z3 DPx5 grlib 6 stdlib 0 22 5jE6;>SXVmbThTo^Jacc70
+Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 36
+R0
+Z7 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/opencores/can/can_top.vhd
+Z8 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/opencores/can/can_top.vhd
+l0
+L115 1
+V:5Do_jB:e]D7YGG?za_j?3
+!s100 4IcAz`1aH3A>GW?I?:2?W3
+Z9 OL;C;2021.3;73
+31
+Z10 !s110 1645711593
+!i10b 1
+Z11 !s108 1645711593.000000
+Z12 !s90 -reportprogress|300|-work|opencores|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/opencores/can/can_top.vhd|
+Z13 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/opencores/can/can_top.vhd|
+!i113 0
+Z14 !s102 -cover s
+Z15 o-work opencores -93 -source -nowarn 1 -nowarn 5 -cover s
+Z16 tShow_source 1 Show_Warning1 0 Show_Warning5 0 Explicit 1 Quiet 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+R5
+R6
+DEx4 work 7 can_acf 0 22 :5Do_jB:e]D7YGG?za_j?3
+!i122 36
+l154
+L144 138
+VTnn@ENUB]coAb:0<U^;IO2
+!s100 [oHHk5DdEz52VRB`n?2d?1
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Ecan_bsp
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 36
+R0
+R7
+R8
+l0
+L1821 1
+VBLZK6bD2m0WJ>9aOY:PO=2
+!s100 SBD>LF=C<F]fg1<_1[56n0
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Artl
+R2
+R3
+R4
+R5
+R6
+DEx4 work 7 can_bsp 0 22 BLZK6bD2m0WJ>9aOY:PO=2
+!i122 36
+l2259
+L1939 2274
+VM^GLXH:TT^?mhbz@5<fYL3
+!s100 mAl7:IHna?]NC2AGciLSQ3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Ecan_btl
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 36
+R0
+R7
+R8
+l0
+L458 1
+VHS6I4I[:NMaolP;?5^m911
+!s100 dnO>mKY^E[^kM``aI[DN`2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Artl
+R2
+R3
+R4
+R5
+R6
+DEx4 work 7 can_btl 0 22 HS6I4I[:NMaolP;?5^m911
+!i122 36
+l524
+L491 304
+VGSk?`5_IdC`@JeXeM8]nX2
+!s100 BV:HdkNT9C<^Qm:@P5MGL2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Ecan_crc
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 36
+R0
+R7
+R8
+l0
+L1414 1
+VbcmiUUjXV90_DU3l`fUaH2
+!s100 kE?5[20^[;83WH7oPcZU13
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Artl
+R2
+R3
+R4
+R5
+R6
+DEx4 work 7 can_crc 0 22 bcmiUUjXV90_DU3l`fUaH2
+!i122 36
+l1431
+L1423 31
+VZOlkDMU?557:B0l_Cn4]23
+!s100 DW9?o8mNfOc0<_Oei1zmB3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Ecan_fifo
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 36
+R0
+R7
+R8
+l0
+L964 1
+VF]k^:S8b@;<nGlzGCG@`@2
+!s100 Ol`f4Qdb^P56aN@B7PX@f3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Artl
+R2
+R3
+R4
+R5
+R6
+DEx4 work 8 can_fifo 0 22 F]k^:S8b@;<nGlzGCG@`@2
+!i122 36
+l1043
+L1002 315
+V<[5QKU<EZTBQd3ESBnQ:[0
+!s100 0nhILO>7<??@^;L52m2dF0
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Ecan_ibo
+R1
+R5
+R6
+!i122 36
+R0
+R7
+R8
+l0
+L1541 1
+V0LbKcDd;BdJmTM3oKSP[f1
+!s100 Q7IX3jWc;2hDW?Y]_GeFA2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Artl
+R5
+R6
+DEx4 work 7 can_ibo 0 22 0LbKcDd;BdJmTM3oKSP[f1
+!i122 36
+l1556
+L1547 21
+VSk=;?T9@E_2PaY9UzLNT?1
+!s100 0YLlXOThocz:5^8ziVTM?2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Ecan_register
+R1
+R5
+R6
+!i122 36
+R0
+R7
+R8
+l0
+L4307 1
+Ve3I;V]0[liB]^ZHM2WZ@G3
+!s100 G19NVkViK7lLj@dXG8CFZ3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Artl
+R5
+R6
+DEx4 work 12 can_register 0 22 e3I;V]0[liB]^ZHM2WZ@G3
+!i122 36
+l4326
+L4317 24
+VRPBZigjfPN1Fb7W2j;=<N2
+!s100 Vf@]9]PX`WR02oU_]SM;R1
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Ecan_register_asyn
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 36
+R0
+R7
+R8
+l0
+L4440 1
+V^f@]j2eli5LLPAgbR0zGz2
+!s100 X0:G3z3^zjA@]<f=A_NQa1
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Artl
+R2
+R3
+R4
+R5
+R6
+DEx4 work 17 can_register_asyn 0 22 ^f@]j2eli5LLPAgbR0zGz2
+!i122 36
+l4461
+L4452 28
+VnU[XzTndlNQFG;R@[CFaZ1
+!s100 YY8RSSgU0]lcg_nZXGU042
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Ecan_register_asyn_syn
+R1
+R2
+R4
+R3
+R5
+R6
+!i122 36
+R0
+R7
+R8
+l0
+L4577 1
+VV7<4Cc@9NZF=4XiYYiEWB1
+!s100 W@=C58:cF34YhPSld_M9E2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Artl
+R2
+R4
+R3
+R5
+R6
+DEx4 work 21 can_register_asyn_syn 0 22 V7<4Cc@9NZF=4XiYYiEWB1
+!i122 36
+l4599
+L4590 32
+V9Vdz<OB7U[;2^=3VZSVGG1
+!s100 M[zT9]PIJml672JSR6Bn;0
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Ecan_register_syn
+R1
+R2
+R4
+R3
+R5
+R6
+!i122 36
+R0
+R7
+R8
+l0
+L4716 1
+VYX_4WAem3MP51K]k8F9S42
+!s100 YB_oi0?gTBJ2Tbcz@>[3g2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Artl
+R2
+R4
+R3
+R5
+R6
+DEx4 work 16 can_register_syn 0 22 YX_4WAem3MP51K]k8F9S42
+!i122 36
+l4737
+L4728 30
+VdXeh^ad=4dDgSm?8c`CK:0
+!s100 O?c5@P`WbLWmEN<HL;ZQK2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Ecan_registers
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 36
+R0
+R7
+R8
+l0
+L4951 1
+VGI6EFbSN^d6X0]Hchf_CM0
+!s100 XZIYi8oj32?TXT`XP1e6W2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Artl
+R2
+R3
+R4
+R5
+R6
+DEx4 work 13 can_registers 0 22 GI6EFbSN^d6X0]Hchf_CM0
+!i122 36
+l5272
+L5045 1161
+VbFCANRLB7LFe_<?Hg``U^1
+!s100 RVAKCAd<AH7a]iZ>e?CP;3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Ecan_top
+R1
+R2
+R4
+R3
+R5
+R6
+!i122 36
+R0
+R7
+R8
+l0
+L6441 1
+V84HC086=V2k9_B=W9TLRV3
+!s100 8<]^f>mzFXg;?zdW]e6O>3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Artl
+R2
+R4
+R3
+R5
+R6
+DEx4 work 7 can_top 0 22 84HC086=V2k9_B=W9TLRV3
+!i122 36
+l6868
+L6487 720
+V<F4mb1GG5O02JkEolVe>91
+!s100 kOXI2ajc0hF<m;PX<UdTl3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+Pcancomp
+R5
+R6
+!i122 35
+R1
+R0
+8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/opencores/can/cancomp.vhd
+F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/opencores/can/cancomp.vhd
+l0
+L30 1
+V3=`j^cZSiMA;z^Vk35ACC2
+!s100 `70Y3NPMCUE7`7<O03zBZ0
+R9
+31
+R10
+!i10b 1
+!s108 1645711592.000000
+!s90 -reportprogress|300|-work|opencores|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/opencores/can/cancomp.vhd|
+!s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/opencores/can/cancomp.vhd|
+!i113 0
+R14
+R15
+R16
+Ei2c_master_bit_ctrl
+R1
+R2
+R4
+R3
+R5
+R6
+!i122 37
+R0
+Z17 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/opencores/i2c/i2c_master_bit_ctrl.vhd
+Z18 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/opencores/i2c/i2c_master_bit_ctrl.vhd
+l0
+L174 1
+VC@N6XAVz^7AD`bL;W>i[:1
+!s100 oFnORbNBPUZQL3ISUIP[>3
+R9
+31
+R10
+!i10b 1
+R11
+Z19 !s90 -reportprogress|300|-work|opencores|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/opencores/i2c/i2c_master_bit_ctrl.vhd|
+Z20 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/opencores/i2c/i2c_master_bit_ctrl.vhd|
+!i113 0
+R14
+R15
+R16
+Astructural
+R2
+R4
+R3
+R5
+R6
+DEx4 work 19 i2c_master_bit_ctrl 0 22 C@N6XAVz^7AD`bL;W>i[:1
+!i122 37
+l223
+L204 527
+V=Aoc`N7^M8Zgn1AizoAC^1
+!s100 LXIzaBi^Czk3dfJ_`7l;b1
+R9
+31
+R10
+!i10b 1
+R11
+R19
+R20
+!i113 0
+R14
+R15
+R16
+Ei2c_master_byte_ctrl
+R1
+R2
+R4
+R3
+R5
+R6
+!i122 38
+R0
+Z21 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/opencores/i2c/i2c_master_byte_ctrl.vhd
+Z22 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/opencores/i2c/i2c_master_byte_ctrl.vhd
+l0
+L83 1
+V?KRA5@eW98NjAPF1k2^il3
+!s100 =Z;iAUkn:UDAClz;L`hO71
+R9
+31
+R10
+!i10b 1
+R11
+Z23 !s90 -reportprogress|300|-work|opencores|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/opencores/i2c/i2c_master_byte_ctrl.vhd|
+Z24 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/opencores/i2c/i2c_master_byte_ctrl.vhd|
+!i113 0
+R14
+R15
+R16
+Astructural
+R2
+R4
+R3
+R5
+R6
+DEx4 work 20 i2c_master_byte_ctrl 0 22 ?KRA5@eW98NjAPF1k2^il3
+!i122 38
+l179
+L119 269
+VD=FlWe9QEJTHd]^_eHAeL3
+!s100 :zAJR0zDVAi=?:Pzg[iOz0
+R9
+31
+R10
+!i10b 1
+R11
+R23
+R24
+!i113 0
+R14
+R15
+R16
+Pi2coc
+R4
+R5
+R6
+!i122 39
+R1
+R0
+8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/opencores/i2c/i2coc.vhd
+F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/opencores/i2c/i2coc.vhd
+l0
+L33 1
+VETd4LBZ2hW0[ZzeUEkS:W0
+!s100 0W?H__07REakbn4AX2jFb2
+R9
+31
+R10
+!i10b 1
+R11
+!s90 -reportprogress|300|-work|opencores|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/opencores/i2c/i2coc.vhd|
+!s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/opencores/i2c/i2coc.vhd|
+!i113 0
+R14
+R15
+R16

@@ -1,0 +1,6017 @@
+m255
+K4
+z0
+!s11e vcom 2021.3 2021.07, Jul 13 2021
+13
+cModel Technology
+Z0 d/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/designs/noelv-generic
+Pallclkgen
+Z1 DPx5 grlib 12 config_types 0 22 Tg:Y_1760Q^;DG23ZPcnN2
+Z2 DPx5 grlib 6 config 0 22 F8Y^D>^K7NzLEJ][XFjWe3
+Z3 DPx7 techmap 7 gencomp 0 22 dgoLWDOTi6Y1oeMMWZh>S2
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 527
+Z6 w1645691000
+R0
+8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/allclkgen.vhd
+F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/allclkgen.vhd
+l0
+Z7 L32 1
+V41i@?gDWb7=cEZdSP0Pc[1
+!s100 `]LB_J]AOZ8J5No;ke4jn3
+Z8 OL;C;2021.3;73
+31
+Z9 !s110 1645711587
+!i10b 1
+Z10 !s108 1645711587.000000
+!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/allclkgen.vhd|
+!s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/allclkgen.vhd|
+!i113 0
+Z11 !s102 -cover s
+Z12 o-work techmap -93 -source -nowarn 1 -nowarn 5 -cover s
+Z13 tShow_source 1 Show_Warning1 0 Show_Warning5 0 Explicit 1 Quiet 1 CvgOpt 0
+Pallddr
+R1
+R2
+R3
+R4
+R5
+!i122 528
+R6
+R0
+8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/allddr.vhd
+F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/allddr.vhd
+l0
+R7
+Vb7R:Jl;H[i@MEH1aX>1hW1
+!s100 M;_G]YC<1l]J0=jA6cKbH3
+R8
+31
+R9
+!i10b 1
+R10
+!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/allddr.vhd|
+!s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/allddr.vhd|
+!i113 0
+R11
+R12
+R13
+Pallmem
+R4
+R5
+!i122 529
+R6
+R0
+8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/allmem.vhd
+F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/allmem.vhd
+l0
+Z14 L30 1
+V]f0GD=5IfOlJ>fb41MWBL0
+!s100 L@ZhKA3=K6iJ^YgF8?mVE0
+R8
+31
+R9
+!i10b 1
+R10
+!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/allmem.vhd|
+!s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/allmem.vhd|
+!i113 0
+R11
+R12
+R13
+Pallmul
+R4
+R5
+!i122 530
+R6
+R0
+8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/allmul.vhd
+F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/allmul.vhd
+l0
+R14
+VINl1<<V1]386hOikW`nPJ3
+!s100 hSg7K_NeDZAAI2MMDg[J;2
+R8
+31
+R9
+!i10b 1
+R10
+!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/allmul.vhd|
+!s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/allmul.vhd|
+!i113 0
+R11
+R12
+R13
+Pallpads
+R1
+R2
+R3
+R4
+R5
+!i122 531
+R6
+R0
+8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/allpads.vhd
+F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/allpads.vhd
+l0
+R7
+V:<f7@^kHeIa_FV6WU0XA13
+!s100 PSP7V55F1UdVQ`RfhSeO:2
+R8
+31
+R9
+!i10b 1
+R10
+!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/allpads.vhd|
+!s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/allpads.vhd|
+!i113 0
+R11
+R12
+R13
+Palltap
+R4
+R5
+!i122 532
+R6
+R0
+8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/alltap.vhd
+F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/alltap.vhd
+l0
+Z15 L31 1
+V2:kR?G>HSfPCm6N:Dh=8C1
+!s100 JQ0XjCoVe1[hdl`B5g9173
+R8
+31
+R9
+!i10b 1
+R10
+!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/alltap.vhd|
+!s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/alltech/alltap.vhd|
+!i113 0
+R11
+R12
+R13
+Ecdcbus
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 599
+R0
+Z16 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/cdcbus.vhd
+Z17 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/cdcbus.vhd
+l0
+L46 1
+Vca`W9gCj=YYN1=;iD05:I0
+!s100 jX0=HRhIO6U7VKz2f=Fh]3
+R8
+31
+Z18 !s110 1645711592
+!i10b 1
+Z19 !s108 1645711592.000000
+Z20 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/cdcbus.vhd|
+Z21 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/cdcbus.vhd|
+!i113 0
+R11
+R12
+R13
+Aa
+R1
+R2
+R3
+R4
+R5
+Z22 DEx4 work 6 cdcbus 0 22 ca`W9gCj=YYN1=;iD05:I0
+!i122 599
+l68
+Z23 L60 52
+Z24 VaGIiR<_nWdz<Q5jnaI_Qi2
+Z25 !s100 cT2fKc]O??FLM56KZdmE13
+R8
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R11
+R12
+R13
+Eclkand
+R6
+Z26 DPx4 work 9 allclkgen 0 22 41i@?gDWb7=cEZdSP0Pc[1
+R1
+R2
+Z27 DPx4 work 7 gencomp 0 22 dgoLWDOTi6Y1oeMMWZh>S2
+R4
+R5
+!i122 545
+R0
+Z28 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkand.vhd
+Z29 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkand.vhd
+l0
+R7
+VPSVMz>>lHUI6BGm9=U5=?1
+!s100 ::zRVNVVC>YD<>SAQlQlQ1
+R8
+31
+Z30 !s110 1645711588
+!i10b 1
+Z31 !s108 1645711588.000000
+Z32 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkand.vhd|
+Z33 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkand.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R26
+R1
+R2
+R27
+R4
+R5
+DEx4 work 6 clkand 0 22 PSVMz>>lHUI6BGm9=U5=?1
+!i122 545
+l60
+L48 143
+V>eY0395BRS>QX^;k3mS]]0
+!s100 FFMIUgbnVDfhM^Rz2DbEk3
+R8
+31
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 0
+R11
+R12
+R13
+Eclkgen
+R6
+Z34 DPx7 techmap 9 allclkgen 0 22 41i@?gDWb7=cEZdSP0Pc[1
+R1
+R2
+R3
+R4
+R5
+!i122 542
+R0
+Z35 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkgen.vhd
+Z36 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkgen.vhd
+l0
+Z37 L33 1
+VC_=<dY_g2Kb7WLm3?SS591
+!s100 PIG8C93gjE@A718m]l^dm3
+R8
+31
+R30
+!i10b 1
+R31
+Z38 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkgen.vhd|
+Z39 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkgen.vhd|
+!i113 0
+R11
+R12
+R13
+Astruct
+R34
+R1
+R2
+R3
+R4
+R5
+DEx4 work 6 clkgen 0 22 C_=<dY_g2Kb7WLm3?SS591
+!i122 542
+l70
+L67 202
+VP8_EjDNWT56N`[]^S;Q6F3
+!s100 E1NH9IZbJj8RTG0;bF9_:3
+R8
+31
+R30
+!i10b 1
+R31
+R38
+R39
+!i113 0
+R11
+R12
+R13
+Eclkinv
+R6
+R26
+R1
+R2
+R27
+R4
+R5
+!i122 544
+R0
+Z40 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkinv.vhd
+Z41 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkinv.vhd
+l0
+R7
+V3TCjao?Mi:b;oP`dK2UC90
+!s100 S3V=OXNoF]X>zd<bN1lRE2
+R8
+31
+R30
+!i10b 1
+R31
+Z42 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkinv.vhd|
+Z43 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkinv.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R26
+R1
+R2
+R27
+R4
+R5
+DEx4 work 6 clkinv 0 22 3TCjao?Mi:b;oP`dK2UC90
+!i122 544
+l41
+L40 28
+VD2?Kg]@18dSJLQWF=RWL`1
+!s100 Bf6Kd7N@>S_;YAG4:TnSJ3
+R8
+31
+R30
+!i10b 1
+R31
+R42
+R43
+!i113 0
+R11
+R12
+R13
+Eclkmux
+R6
+R26
+R1
+R2
+R27
+R4
+R5
+!i122 543
+R0
+Z44 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkmux.vhd
+Z45 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkmux.vhd
+l0
+R7
+VlTmhhNl7MW@:`UnJYndS12
+!s100 o^daD3Q=0o6TL[hTZ>0QF2
+R8
+31
+R30
+!i10b 1
+R31
+Z46 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkmux.vhd|
+Z47 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkmux.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R26
+R1
+R2
+R27
+R4
+R5
+DEx4 work 6 clkmux 0 22 lTmhhNl7MW@:`UnJYndS12
+!i122 543
+l55
+L44 108
+VTQW9e37VgVmMfb67O1Tf]1
+!s100 B25D>g@VNnoTzY=^IJIBV1
+R8
+31
+R30
+!i10b 1
+R31
+R46
+R47
+!i113 0
+R11
+R12
+R13
+Eclkpad
+R6
+Z48 DPx7 techmap 7 allpads 0 22 :<f7@^kHeIa_FV6WU0XA13
+R1
+R2
+R3
+R4
+R5
+!i122 549
+R0
+Z49 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkpad.vhd
+Z50 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkpad.vhd
+l0
+R37
+VALH7QKmRoOHVB3Dnk:mKG1
+!s100 PVnXXfEj>256me[eUlWBB1
+R8
+31
+R30
+!i10b 1
+R31
+Z51 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkpad.vhd|
+Z52 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkpad.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R1
+R2
+R3
+R4
+R5
+DEx4 work 6 clkpad 0 22 ALH7QKmRoOHVB3Dnk:mKG1
+!i122 549
+l41
+Z53 L40 70
+VjXEIn<UU1zGl=TF0;CAL]3
+!s100 X`2UVoP[5zfN]=gSXVnLM3
+R8
+31
+R30
+!i10b 1
+R31
+R51
+R52
+!i113 0
+R11
+R12
+R13
+Eclkpad_ds
+R6
+R48
+R1
+R2
+R3
+R4
+R5
+!i122 550
+R0
+Z54 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkpad_ds.vhd
+Z55 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkpad_ds.vhd
+l0
+R37
+ViBHjcTaI]fiP<4z5BJVBb0
+!s100 bUl7KO1IXRTo^>?XYZI8P2
+R8
+31
+R30
+!i10b 1
+R31
+Z56 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkpad_ds.vhd|
+Z57 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/clkpad_ds.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R1
+R2
+R3
+R4
+R5
+DEx4 work 9 clkpad_ds 0 22 iBHjcTaI]fiP<4z5BJVBb0
+!i122 550
+l41
+L39 41
+VKG1c>4`z0g<AOl0P:HiW90
+!s100 P9[;>POEBQ3VzLYoEe:0H2
+R8
+31
+R30
+!i10b 1
+R31
+R56
+R57
+!i113 0
+R11
+R12
+R13
+Eclkrand
+R6
+R26
+R1
+R2
+R27
+R4
+R5
+!i122 545
+R0
+R28
+R29
+l0
+L199 1
+Vz7g;SHzYUj]e>`m^fC[kE2
+!s100 `02LXb6OMn<_ehHdci1]K1
+R8
+31
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 0
+R11
+R12
+R13
+Artl
+R26
+R1
+R2
+R27
+R4
+R5
+DEx4 work 7 clkrand 0 22 z7g;SHzYUj]e>`m^fC[kE2
+!i122 545
+l211
+L209 12
+VHXh<>DYoIX607eoMG?f>21
+!s100 1;]M9P_AM]>;kBLAYCc>b2
+R8
+31
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 0
+R11
+R12
+R13
+Eclkswitch
+R6
+R4
+R5
+!i122 540
+R0
+Z58 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/lpddr2_phy_inferred.vhd
+Z59 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/lpddr2_phy_inferred.vhd
+l0
+R14
+VaIl`FgjOaAE>]QcECf@d:1
+!s100 zNLT0O1>eX?igSDo]ZhSP2
+R8
+31
+R30
+!i10b 1
+R31
+Z60 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/lpddr2_phy_inferred.vhd|
+Z61 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/lpddr2_phy_inferred.vhd|
+!i113 0
+R11
+R12
+R13
+Asim
+R4
+R5
+Z62 DEx4 work 9 clkswitch 0 22 aIl`FgjOaAE>]QcECf@d:1
+!i122 540
+l37
+L35 18
+VJ7Lc:^PL:PP]:aTjMYoi]1
+!s100 <<FG=fEl3Rl=P73dZa1OX1
+R8
+31
+R30
+!i10b 1
+R31
+R60
+R61
+!i113 0
+R11
+R12
+R13
+Ecpu_disas_net
+R6
+Z63 DPx5 grlib 5 stdio 0 22 `0k2b<T_i>Xf@bkA1J2UL3
+Z64 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z65 DPx5 grlib 7 testlib 0 22 IgZTJKXGzz75NP>P=]^Bz2
+Z66 DPx5 grlib 11 sparc_disas 0 22 a^ga1CLYfSoLhR8ieQoD91
+Z67 DPx5 grlib 5 sparc 0 22 aZTlRN4MdQ]<9QLAYYGF22
+Z68 DPx5 grlib 7 version 0 22 6kROJZd;CaU0KdF`V<KgE3
+Z69 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z70 DPx5 grlib 6 stdlib 0 22 5jE6;>SXVmbThTo^Jacc70
+R4
+R5
+!i122 577
+R0
+Z71 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/cpu_disas_net.vhd
+Z72 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/cpu_disas_net.vhd
+l0
+Z73 L36 1
+V[U01P4HYcz>o3c?>gYDVg3
+!s100 cf3Fg7KdT>?4@E_?kL<TB3
+R8
+31
+Z74 !s110 1645711590
+!i10b 1
+Z75 !s108 1645711590.000000
+Z76 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/cpu_disas_net.vhd|
+Z77 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/cpu_disas_net.vhd|
+!i113 0
+R11
+R12
+R13
+Abehav
+R63
+R64
+R65
+R66
+R67
+R68
+R69
+R70
+R4
+R5
+DEx4 work 13 cpu_disas_net 0 22 [U01P4HYcz>o3c?>gYDVg3
+!i122 577
+l54
+L53 28
+Vo4G;MmV=@S6hfc4N>m;de1
+!s100 Q?[lYdCMA^K7[d=gJ18YD2
+R8
+31
+R74
+!i10b 1
+R75
+R76
+R77
+!i113 0
+R11
+R12
+R13
+Eddr2pads
+R6
+Z78 DPx7 techmap 6 allddr 0 22 b7R:Jl;H[i@MEH1aX>1hW1
+R1
+R2
+R3
+R68
+R69
+R70
+R4
+R5
+!i122 563
+R0
+Z79 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/ddrphy.vhd
+Z80 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/ddrphy.vhd
+l0
+L565 1
+VDK]niW]PAP6;O68191b;L1
+!s100 Ndh[mI9@G@f?M4^He1DI40
+R8
+31
+Z81 !s110 1645711589
+!i10b 1
+Z82 !s108 1645711589.000000
+Z83 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/ddrphy.vhd|
+Z84 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/ddrphy.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R78
+R1
+R2
+R3
+R68
+R69
+R70
+R4
+R5
+DEx4 work 8 ddr2pads 0 22 DK]niW]PAP6;O68191b;L1
+!i122 563
+l623
+L621 127
+V51loFA22EVjSfbSjzenjK0
+!s100 0>DdTPi=Y2:R1K4`FYMRD3
+R8
+31
+R81
+!i10b 1
+R82
+R83
+R84
+!i113 0
+R11
+R12
+R13
+Eddr2phy
+R6
+R48
+R78
+R1
+R2
+R3
+R68
+R69
+R70
+R4
+R5
+!i122 563
+R0
+R79
+R80
+l0
+L760 1
+V@43BZcQ2[Kh6bFN:EZE;c0
+!s100 MJKhmONIk`J7o]>Fz98]]1
+R8
+31
+R81
+!i10b 1
+R82
+R83
+R84
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R78
+R1
+R2
+R3
+R68
+R69
+R70
+R4
+R5
+DEx4 work 7 ddr2phy 0 22 @43BZcQ2[Kh6bFN:EZE;c0
+!i122 563
+l862
+L847 221
+VSNHPE>mGGZ??4MZ>HWnZT1
+!s100 >_b7]PaYG^6G@G_48ePQU3
+R8
+31
+R81
+!i10b 1
+R82
+R83
+R84
+!i113 0
+R11
+R12
+R13
+Eddr2phy_wo_pads
+R6
+R78
+R1
+R2
+R3
+R68
+R69
+R70
+R4
+R5
+!i122 563
+R0
+R79
+R80
+l0
+L1079 1
+VaL0g`fi_e_6[72C^nDVjX0
+!s100 Y]^j[a=m5X9K1OK5RkMA93
+R8
+31
+R81
+!i10b 1
+R82
+R83
+R84
+!i113 0
+R11
+R12
+R13
+Artl
+R78
+R1
+R2
+R3
+R68
+R69
+R70
+R4
+R5
+DEx4 work 15 ddr2phy_wo_pads 0 22 aL0g`fi_e_6[72C^nDVjX0
+!i122 563
+l1157
+L1156 79
+Vn;3aEe@coIET<J?B:6HhO0
+!s100 En@1e^BW=TJziM0In?fIF2
+R8
+31
+R81
+!i10b 1
+R82
+R83
+R84
+!i113 0
+R11
+R12
+R13
+Eddr_ireg
+R6
+R78
+R1
+R2
+R3
+R4
+R5
+!i122 547
+R0
+Z85 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/ddr_ireg.vhd
+Z86 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/ddr_ireg.vhd
+l0
+R7
+VGg=G][gEUiDcaeYiYWBM;1
+!s100 YR>0h;GaK`Pk7fAf4iNTh2
+R8
+31
+R30
+!i10b 1
+R31
+Z87 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/ddr_ireg.vhd|
+Z88 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/ddr_ireg.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R78
+R1
+R2
+R3
+R4
+R5
+DEx4 work 8 ddr_ireg 0 22 Gg=G][gEUiDcaeYiYWBM;1
+!i122 547
+l47
+L46 45
+Vbo9A`;PHm@QG@R8`ofIlH1
+!s100 Tg4hM4BGbk;Mh8HLRK7^L2
+R8
+31
+R30
+!i10b 1
+R31
+R87
+R88
+!i113 0
+R11
+R12
+R13
+Eddr_oreg
+R6
+R78
+R1
+R2
+R3
+R4
+R5
+!i122 548
+R0
+Z89 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/ddr_oreg.vhd
+Z90 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/ddr_oreg.vhd
+l0
+R7
+VzTRgX93ZQa:VCH6D<4XDI3
+!s100 nVo=UbXT5=80^m7>mPA<^2
+R8
+31
+R30
+!i10b 1
+R31
+Z91 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/ddr_oreg.vhd|
+Z92 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/ddr_oreg.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R78
+R1
+R2
+R3
+R4
+R5
+DEx4 work 8 ddr_oreg 0 22 zTRgX93ZQa:VCH6D<4XDI3
+!i122 548
+l47
+L46 46
+V87zlB[7:D6n:d`SQHUM<I1
+!s100 83^0R:^eH=g?Q>m^dcm;l3
+R8
+31
+R30
+!i10b 1
+R31
+R91
+R92
+!i113 0
+R11
+R12
+R13
+Eddrpads
+R6
+R78
+R1
+R2
+R3
+R68
+R69
+R70
+R4
+R5
+!i122 563
+R0
+R79
+R80
+l0
+Z93 L389 1
+Vi<jcWTnN4E[lN7`>TE]lf3
+!s100 3VzMCXZ?_WIlc;?HFc;[h2
+R8
+31
+R81
+!i10b 1
+R82
+R83
+R84
+!i113 0
+R11
+R12
+R13
+Artl
+R78
+R1
+R2
+R3
+R68
+R69
+R70
+R4
+R5
+DEx4 work 7 ddrpads 0 22 i<jcWTnN4E[lN7`>TE]lf3
+!i122 563
+l442
+L440 110
+V7?JH1Ye4Ncn?bYENe4SB>3
+!s100 Q;NSE4K35O9OkM:dg]b@C2
+R8
+31
+R81
+!i10b 1
+R82
+R83
+R84
+!i113 0
+R11
+R12
+R13
+Eddrphy
+R6
+R78
+R1
+R2
+R3
+R68
+R69
+R70
+R4
+R5
+!i122 563
+R0
+R79
+R80
+l0
+Z94 L40 1
+VG@4nj0[k4b3V:iC?o`h_H2
+!s100 ASWhIFDd<P:KP=B?Clj7M0
+R8
+31
+R81
+!i10b 1
+R82
+R83
+R84
+!i113 0
+R11
+R12
+R13
+Artl
+R78
+R1
+R2
+R3
+R68
+R69
+R70
+R4
+R5
+DEx4 work 6 ddrphy 0 22 G@4nj0[k4b3V:iC?o`h_H2
+!i122 563
+l104
+L93 176
+V?RMI=nUMlWmA37iRbP@NN1
+!s100 X4;FhBJfU712T08JC`N`B0
+R8
+31
+R81
+!i10b 1
+R82
+R83
+R84
+!i113 0
+R11
+R12
+R13
+Eddrphy_datapath
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 537
+R0
+Z95 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/ddrphy_datapath.vhd
+Z96 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/ddrphy_datapath.vhd
+l0
+R7
+VeWS1>XOmT5^AdK`:FmSL20
+!s100 d5R>iF?hUE40VjTZihk^N3
+R8
+31
+R30
+!i10b 1
+R31
+Z97 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/ddrphy_datapath.vhd|
+Z98 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/ddrphy_datapath.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 15 ddrphy_datapath 0 22 eWS1>XOmT5^AdK`:FmSL20
+!i122 537
+l100
+L93 146
+VfUNZ9lnZZIBCC5Weh@dQP3
+!s100 G25:e9V9=S6iC7cDa@BTg1
+R8
+31
+R30
+!i10b 1
+R31
+R97
+R98
+!i113 0
+R11
+R12
+R13
+Eddrphy_wo_pads
+R6
+R78
+R1
+R2
+R3
+R4
+R5
+!i122 563
+R0
+R79
+R80
+l0
+Z99 L276 1
+VjzLj3K=[W`^Ai_ZhPmkQA2
+!s100 <=hJGHVGJ`Q[WB;24RMZ[1
+R8
+31
+R81
+!i10b 1
+R82
+R83
+R84
+!i113 0
+R11
+R12
+R13
+Artl
+R78
+R1
+R2
+R3
+R4
+R5
+DEx4 work 14 ddrphy_wo_pads 0 22 jzLj3K=[W`^Ai_ZhPmkQA2
+!i122 563
+l333
+L332 45
+VJPEFoB7PhiaOlNK`5IeeA3
+!s100 H:C_bGXS>1=a^f1bf5F>?2
+R8
+31
+R81
+!i10b 1
+R82
+R83
+R84
+!i113 0
+R11
+R12
+R13
+Efpu_disas_net
+R6
+R63
+R64
+R65
+R66
+R67
+R68
+R69
+R70
+R4
+R5
+!i122 577
+R0
+R71
+R72
+l0
+Z100 L91 1
+VVW[FQH9FeP`h<I0J_lf3J3
+!s100 Wjc3UBC2k1Z^gAUXWIQMZ1
+R8
+31
+R74
+!i10b 1
+R75
+R76
+R77
+!i113 0
+R11
+R12
+R13
+Abehav
+R63
+R64
+R65
+R66
+R67
+R68
+R69
+R70
+R4
+R5
+DEx4 work 13 fpu_disas_net 0 22 VW[FQH9FeP`h<I0J_lf3J3
+!i122 577
+l114
+L113 28
+Vc07jgh@e;VSRDT_DmZVo>1
+!s100 _;8;R6VAXmLgY<eUe?oKS1
+R8
+31
+R74
+!i10b 1
+R75
+R76
+R77
+!i113 0
+R11
+R12
+R13
+Egen_iddr_reg
+R6
+R4
+R5
+!i122 534
+R0
+Z101 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/ddr_inferred.vhd
+Z102 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/ddr_inferred.vhd
+l0
+R14
+V:lhE0hDR:@QEjPIm9dTnF1
+!s100 b9z0Q0[dWYQhjG:8H?bIl1
+R8
+31
+R9
+!i10b 1
+R10
+Z103 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/ddr_inferred.vhd|
+Z104 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/ddr_inferred.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R4
+R5
+DEx4 work 12 gen_iddr_reg 0 22 :lhE0hDR:@QEjPIm9dTnF1
+!i122 534
+l49
+L46 21
+V07WFzAE4E9mm38P2<]XaB2
+!s100 3^1]NJ59;KznB]_U`9LEQ0
+R8
+31
+R9
+!i10b 1
+R10
+R103
+R104
+!i113 0
+R11
+R12
+R13
+Egen_mul_61x61
+R6
+R68
+R70
+R69
+R4
+R5
+!i122 535
+R0
+Z105 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/mul_inferred.vhd
+Z106 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/mul_inferred.vhd
+l0
+R37
+VA1OJO`1gC]1V[ZLK`XC^Q0
+!s100 @V9PlggB4WfU:7F=GMczZ1
+R8
+31
+R9
+!i10b 1
+R10
+Z107 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/mul_inferred.vhd|
+Z108 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/mul_inferred.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R68
+R70
+R69
+R4
+R5
+DEx4 work 13 gen_mul_61x61 0 22 A1OJO`1gC]1V[ZLK`XC^Q0
+!i122 535
+l46
+L41 31
+VEcGB?ng05j5oH0na8=L>Y3
+!s100 @>@ZgPWdJRhNB]^d7=OYD1
+R8
+31
+R9
+!i10b 1
+R10
+R107
+R108
+!i113 0
+R11
+R12
+R13
+Egen_mult_pipe
+R6
+R68
+R69
+R70
+Z109 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R4
+R5
+!i122 535
+R0
+R105
+R106
+l0
+L79 1
+VnS0BhjHiQ]K:X_QMD0Ilz3
+!s100 CHjHZ;5R=gcTfGklc]`HH2
+R8
+31
+R9
+!i10b 1
+R10
+R107
+R108
+!i113 0
+R11
+R12
+R13
+Asimple
+R68
+R69
+R70
+R109
+R4
+R5
+DEx4 work 13 gen_mult_pipe 0 22 nS0BhjHiQ]K:X_QMD0Ilz3
+!i122 535
+l101
+L94 50
+VEF@Uif`hgeJBXK=9z3dc52
+!s100 7O[zF:JJE;96JWMn1FUgM3
+R8
+31
+R9
+!i10b 1
+R10
+R107
+R108
+!i113 0
+R11
+R12
+R13
+Egen_oddr_reg
+R6
+R4
+R5
+!i122 534
+R0
+R101
+R102
+l0
+L71 1
+VF_3X871gg;I_z2@A^2[S50
+!s100 :E[4JhcmlD_omoBeTn_Sa3
+R8
+31
+R9
+!i10b 1
+R10
+R103
+R104
+!i113 0
+R11
+R12
+R13
+Artl
+R4
+R5
+DEx4 work 12 gen_oddr_reg 0 22 F_3X871gg;I_z2@A^2[S50
+!i122 534
+l90
+L86 20
+VId]D:iS@zQbRERd8Jj7cS3
+!s100 faAPcR=mJ4UPcQ89`WIIZ0
+R8
+31
+R9
+!i10b 1
+R10
+R103
+R104
+!i113 0
+R11
+R12
+R13
+Pgencomp
+R1
+R2
+R4
+R5
+!i122 525
+R6
+R0
+8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/gencomp/gencomp.vhd
+F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/gencomp/gencomp.vhd
+l0
+R37
+VdgoLWDOTi6Y1oeMMWZh>S2
+!s100 cbfRXz;GJF>h`eiV]ShlD0
+R8
+31
+R9
+!i10b 1
+R10
+!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/gencomp/gencomp.vhd|
+!s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/gencomp/gencomp.vhd|
+!i113 0
+R11
+R12
+R13
+Egeneric_ddr2_phy_wo_pads
+R6
+R68
+R69
+R70
+R1
+R2
+R3
+R4
+R5
+!i122 536
+R0
+Z110 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/ddr_phy_inferred.vhd
+Z111 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/ddr_phy_inferred.vhd
+l0
+L278 1
+VPU5KI2KEodLG85dEnTLJ63
+!s100 >YSESPQMoA^6P0WRVXU_Q3
+R8
+31
+R9
+!i10b 1
+R10
+Z112 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/ddr_phy_inferred.vhd|
+Z113 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/ddr_phy_inferred.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R68
+R69
+R70
+R1
+R2
+R3
+R4
+R5
+DEx4 work 24 generic_ddr2_phy_wo_pads 0 22 PU5KI2KEodLG85dEnTLJ63
+!i122 536
+l366
+L330 162
+VSFiJl;7lOk_8QMNV6cM5j3
+!s100 QT?hgcAA9NXD6YVlU=Az=0
+R8
+31
+R9
+!i10b 1
+R10
+R112
+R113
+!i113 0
+R11
+R12
+R13
+Egeneric_ddr_phy_wo_pads
+R6
+R68
+R69
+R70
+R1
+R2
+R3
+R4
+R5
+!i122 536
+R0
+R110
+R111
+l0
+Z114 L39 1
+V1lDUUj3N`@8bYCbI]3d3H3
+!s100 8BdH0SRiA2CaSUI;UdBXM0
+R8
+31
+R9
+!i10b 1
+R10
+R112
+R113
+!i113 0
+R11
+R12
+R13
+Artl
+R68
+R69
+R70
+R1
+R2
+R3
+R4
+R5
+DEx4 work 23 generic_ddr_phy_wo_pads 0 22 1lDUUj3N`@8bYCbI]3d3H3
+!i122 536
+l127
+L88 177
+VD^_LI]4>O6?_oQ_JeH=a`1
+!s100 i3[bi;c4^Tf@S[bEOdf190
+R8
+31
+R9
+!i10b 1
+R10
+R112
+R113
+!i113 0
+R11
+R12
+R13
+Egeneric_fifo
+R6
+R68
+R69
+R70
+R1
+R2
+R3
+R109
+Z115 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R4
+R5
+!i122 538
+R0
+Z116 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/fifo_inferred.vhd
+Z117 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/fifo_inferred.vhd
+l0
+L54 1
+VG7l=0SMgh:`_A=C<Nfhb31
+!s100 hRbXo?lMnO0?55eI@PZ@10
+R8
+31
+R30
+!i10b 1
+R31
+Z118 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/fifo_inferred.vhd|
+Z119 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/fifo_inferred.vhd|
+!i113 0
+R11
+R12
+R13
+Artl_fifo
+R68
+R69
+R70
+R1
+R2
+R3
+R109
+R115
+R4
+R5
+DEx4 work 12 generic_fifo 0 22 G7l=0SMgh:`_A=C<Nfhb31
+!i122 538
+l119
+L90 277
+V=gSTOjh0g]8F74SZ2oocH1
+!s100 hhOCX0KReodKdX`J6QOhh0
+R8
+31
+R30
+!i10b 1
+R31
+R118
+R119
+!i113 0
+R11
+R12
+R13
+Egeneric_lpddr2phy_wo_pads
+R6
+R4
+R5
+!i122 540
+R0
+R58
+R59
+l0
+L57 1
+VU0>Jb04NU:NP7anhBB9AK0
+!s100 RRCD780>HZVH3P`8Gj7zY2
+R8
+31
+R30
+!i10b 1
+R31
+R60
+R61
+!i113 0
+R11
+R12
+R13
+Abeh
+R62
+R4
+R5
+DEx4 work 25 generic_lpddr2phy_wo_pads 0 22 U0>Jb04NU:NP7anhBB9AK0
+!i122 540
+l152
+L116 169
+Vl;P[9<l?SMEE4c?]ZVN9g2
+!s100 FAO_k`GHL[RL_o`OJhz<e0
+R8
+31
+R30
+!i10b 1
+R31
+R60
+R61
+!i113 0
+R11
+R12
+R13
+Egeneric_regfile_3p
+R6
+R68
+R69
+R70
+R4
+R5
+!i122 533
+R0
+Z120 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/memory_inferred.vhd
+Z121 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/memory_inferred.vhd
+l0
+L288 1
+Vg_XG5IGFdY?AD1A`dCmK@0
+!s100 RJg3:?k3W[e=WFn2;SjbQ2
+R8
+31
+R9
+!i10b 1
+R10
+Z122 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/memory_inferred.vhd|
+Z123 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/memory_inferred.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R68
+R69
+R70
+R4
+R5
+DEx4 work 18 generic_regfile_3p 0 22 g_XG5IGFdY?AD1A`dCmK@0
+!i122 533
+l320
+L310 72
+VF1<]ZXa`CjC9LGo@=jTdP1
+!s100 bkYEd`K<5AnLeYlD@:FbA0
+R8
+31
+R9
+!i10b 1
+R10
+R122
+R123
+!i113 0
+R11
+R12
+R13
+Egeneric_regfile_4p
+R6
+R68
+R69
+R70
+R4
+R5
+!i122 533
+R0
+R120
+R121
+l0
+R93
+VYbTME7mCFgD8BKTl8<h]H0
+!s100 6ZZOYcXb3GNTz4ho2C?C72
+R8
+31
+R9
+!i10b 1
+R10
+R122
+R123
+!i113 0
+R11
+R12
+R13
+Artl
+R68
+R69
+R70
+R4
+R5
+DEx4 work 18 generic_regfile_4p 0 22 YbTME7mCFgD8BKTl8<h]H0
+!i122 533
+l427
+L417 89
+ViQg:<RCFU`nK77RRoF>k>1
+!s100 5MdRZK[Y9DlSh5XAjk>A72
+R8
+31
+R9
+!i10b 1
+R10
+R122
+R123
+!i113 0
+R11
+R12
+R13
+Egeneric_syncram
+R6
+R68
+R69
+R70
+R4
+R5
+!i122 533
+R0
+R120
+R121
+l0
+R7
+V8WS=4Ro;46F>2mDiLYg4F1
+!s100 ^O6e?Pda2_1`U1Qe4D?@k2
+R8
+31
+R9
+!i10b 1
+R10
+R122
+R123
+!i113 0
+R11
+R12
+R13
+Abehavioral
+R68
+R69
+R70
+R4
+R5
+DEx4 work 15 generic_syncram 0 22 8WS=4Ro;46F>2mDiLYg4F1
+!i122 533
+l51
+L44 34
+VB`C@jJHm6aiK26Am5_X7b1
+!s100 :?l:ZR53>GHnm@RCHIZ=b1
+R8
+31
+R9
+!i10b 1
+R10
+R122
+R123
+!i113 0
+R11
+R12
+R13
+Egeneric_syncram_2p
+R6
+R68
+R69
+R70
+R4
+R5
+!i122 533
+R0
+R120
+R121
+l0
+L137 1
+V5ejTJ0ZT=^MH>H6Ucg=DX1
+!s100 ^?D6b@?jP5QSeBn69YbgO0
+R8
+31
+R9
+!i10b 1
+R10
+R122
+R123
+!i113 0
+R11
+R12
+R13
+Abehav
+R68
+R69
+R70
+R4
+R5
+DEx4 work 18 generic_syncram_2p 0 22 5ejTJ0ZT=^MH>H6Ucg=DX1
+!i122 533
+l162
+L157 53
+VDj0i1IAzB1LhY9IeWOdX:1
+!s100 8;]]VbSA<Am;>[nYm4Q033
+R8
+31
+R9
+!i10b 1
+R10
+R122
+R123
+!i113 0
+R11
+R12
+R13
+Egeneric_syncram_2p_reg
+R6
+R68
+R69
+R70
+R4
+R5
+!i122 533
+R0
+R120
+R121
+l0
+L219 1
+VP=i3Kn6:Hh^7<ic2CN6?<2
+!s100 HZRXmII1PfHPSU2nD8L:e2
+R8
+31
+R9
+!i10b 1
+R10
+R122
+R123
+!i113 0
+R11
+R12
+R13
+Abehav
+R68
+R69
+R70
+R4
+R5
+DEx4 work 22 generic_syncram_2p_reg 0 22 P=i3Kn6:Hh^7<ic2CN6?<2
+!i122 533
+l244
+L237 45
+V>Z`]ij]oXPKzeZl5CI8A93
+!s100 EC:Wn8SEGZ1_>X0>GUA[J3
+R8
+31
+R9
+!i10b 1
+R10
+R122
+R123
+!i113 0
+R11
+R12
+R13
+Egeneric_syncram_reg
+R6
+R68
+R69
+R70
+R4
+R5
+!i122 533
+R0
+R120
+R121
+l0
+L84 1
+VT;A71lLc9Y0ka_N?LGiW03
+!s100 U@`:<4TRHd3iYccJgXn9e2
+R8
+31
+R9
+!i10b 1
+R10
+R122
+R123
+!i113 0
+R11
+R12
+R13
+Abehavioral
+R68
+R69
+R70
+R4
+R5
+DEx4 work 19 generic_syncram_reg 0 22 T;A71lLc9Y0ka_N?LGiW03
+!i122 533
+l104
+L95 34
+V4@hAz2I`T=D7KGNZ<GFV81
+!s100 GomDG[nbRRYP@UHffB^l<1
+R8
+31
+R9
+!i10b 1
+R10
+R122
+R123
+!i113 0
+R11
+R12
+R13
+Egrand12
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 546
+R0
+Z124 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/grgates.vhd
+Z125 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/grgates.vhd
+l0
+L201 1
+V3aok:AG:@D`6Nc0K]Qo9^1
+!s100 RfH[h6aYiU@Q7HXY@]2dk2
+R8
+31
+R30
+!i10b 1
+R31
+Z126 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/grgates.vhd|
+Z127 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/grgates.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 7 grand12 0 22 3aok:AG:@D`6Nc0K]Qo9^1
+!i122 546
+l222
+L204 34
+VDQjgAo1PK6=``BJj3EUTK2
+!s100 =B^flMSIO6LLoEOZ?:7Z<0
+R8
+31
+R30
+!i10b 1
+R31
+R126
+R127
+!i113 0
+R11
+R12
+R13
+Egrand2
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 546
+R0
+R124
+R125
+l0
+R99
+VY0]MI:aURA>43b21G2z4z2
+!s100 ][zFY29l<9@ngUkUGo>C:0
+R8
+31
+R30
+!i10b 1
+R31
+R126
+R127
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 6 grand2 0 22 Y0]MI:aURA>43b21G2z4z2
+!i122 546
+l292
+L288 14
+V^?Y[2dWdD^^;fZgX6n7lN3
+!s100 =nljY<^3i[57m]7RT;b:_2
+R8
+31
+R30
+!i10b 1
+R31
+R126
+R127
+!i113 0
+R11
+R12
+R13
+Egrdff
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 546
+R0
+R124
+R125
+l0
+L114 1
+Vn;S7Kko0o7`cXW7nlcJ9Y1
+!s100 j3_KMeGLn:IL@@z4:1QlH2
+R8
+31
+R30
+!i10b 1
+R31
+R126
+R127
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 5 grdff 0 22 n;S7Kko0o7`cXW7nlcJ9Y1
+!i122 546
+l135
+L117 35
+Vb_7A^EeFaij_P<VUmS0Dn0
+!s100 C``_2<a96<k0>6Jd3GL^l1
+R8
+31
+R30
+!i10b 1
+R31
+R126
+R127
+!i113 0
+R11
+R12
+R13
+Egrfpw_net
+R6
+R1
+R2
+R27
+R4
+R5
+!i122 573
+R0
+Z128 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/grfpw_net.vhd
+Z129 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/grfpw_net.vhd
+l0
+R7
+VX:b1jMn0W`>Dl30LnDVQM3
+!s100 <F[HDg;0YGHo4VRLd;5k51
+R8
+31
+R74
+!i10b 1
+R75
+Z130 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/grfpw_net.vhd|
+Z131 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/grfpw_net.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R27
+R4
+R5
+DEx4 work 9 grfpw_net 0 22 X:b1jMn0W`>Dl30LnDVQM3
+!i122 573
+l710
+L115 728
+V<e8FgR5:E7=FbOlAW=R^R2
+!s100 <78^VjniooHh_H^13?DKO2
+R8
+31
+R74
+!i10b 1
+R75
+R130
+R131
+!i113 0
+R11
+R12
+R13
+Egrlfpw_net
+R6
+R1
+R2
+R27
+R4
+R5
+!i122 572
+R0
+Z132 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/grlfpw_net.vhd
+Z133 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/grlfpw_net.vhd
+l0
+R7
+VCn0jG^7mHUW^mHeN2cI461
+!s100 fSgi9K3:o_0NMPTECQNo`1
+R8
+31
+R74
+!i10b 1
+R75
+Z134 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/grlfpw_net.vhd|
+Z135 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/grlfpw_net.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R27
+R4
+R5
+DEx4 work 10 grlfpw_net 0 22 Cn0jG^7mHUW^mHeN2cI461
+!i122 572
+l1104
+L115 1216
+VMLY`De`AVI4Qo0JnQZIE?2
+!s100 THo12hWII70e1]]eZV]<P3
+R8
+31
+R74
+!i10b 1
+R75
+R134
+R135
+!i113 0
+R11
+R12
+R13
+Egrmux2
+R6
+R26
+R1
+R2
+R3
+R4
+R5
+!i122 546
+R0
+R124
+R125
+l0
+R7
+V=;Cd_b`2EZ_=[P2A0lSfa0
+!s100 <>1a85W1geNaUeOX;`E;@1
+R8
+31
+R30
+!i10b 1
+R31
+R126
+R127
+!i113 0
+R11
+R12
+R13
+Artl
+R26
+R1
+R2
+R3
+R4
+R5
+DEx4 work 6 grmux2 0 22 =;Cd_b`2EZ_=[P2A0lSfa0
+!i122 546
+l63
+L35 53
+VMhmEo954XT1>Md7PiBHlL2
+!s100 dFlJHPb`ah@zIJj_ne;c03
+R8
+31
+R30
+!i10b 1
+R31
+R126
+R127
+!i113 0
+R11
+R12
+R13
+Egrmux2v
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 546
+R0
+R124
+R125
+l0
+Z136 L93 1
+VhQ1dbfc<88WgjfN5E[OLc2
+!s100 NZ70GenS1@0AKNc2<4=;^3
+R8
+31
+R30
+!i10b 1
+R31
+R126
+R127
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 7 grmux2v 0 22 hQ1dbfc<88WgjfN5E[OLc2
+!i122 546
+l101
+L100 8
+Vo967OLA@O4agV6lcF]N^O1
+!s100 W2LD2U1ZTSVmlIBhzgh5^1
+R8
+31
+R30
+!i10b 1
+R31
+R126
+R127
+!i113 0
+R11
+R12
+R13
+Egrnand2
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 546
+R0
+R124
+R125
+l0
+L244 1
+VXJ7SB5<B0WXUK4m^af<B51
+!s100 L[gC0U^@[eIESRj1ae3:?2
+R8
+31
+R30
+!i10b 1
+R31
+R126
+R127
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 7 grnand2 0 22 XJ7SB5<B0WXUK4m^af<B51
+!i122 546
+l260
+L256 14
+V3Q=Hdo;NhY3Q><SV[Z0]O3
+!s100 X>U6n9CHhfcS:]lMGkmfI2
+R8
+31
+R30
+!i10b 1
+R31
+R126
+R127
+!i113 0
+R11
+R12
+R13
+Egror2
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 546
+R0
+R124
+R125
+l0
+L158 1
+VD5L_W9kTOLf;YNQ@zClMh1
+!s100 ^f>>]j61=g1Fkk3RD^8o<1
+R8
+31
+R30
+!i10b 1
+R31
+R126
+R127
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 5 gror2 0 22 D5L_W9kTOLf;YNQ@zClMh1
+!i122 546
+l179
+L161 34
+V4TZ[lLz=e7QP2e]OGfzjz2
+!s100 hS?Dn]OJ;KL4OcEVh16iA3
+R8
+31
+R30
+!i10b 1
+R31
+R126
+R127
+!i113 0
+R11
+R12
+R13
+Egrpci2_phy_net
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 579
+R0
+Z137 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/grpci2_phy_net.vhd
+Z138 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/grpci2_phy_net.vhd
+l0
+L27 1
+Ve?T7GmnYCaO@>AT23_W953
+!s100 X1@_N<MaDLW@UF4afRg7o0
+R8
+31
+Z139 !s110 1645711591
+!i10b 1
+R75
+Z140 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/grpci2_phy_net.vhd|
+Z141 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/grpci2_phy_net.vhd|
+!i113 0
+R11
+R12
+R13
+Astruct
+R1
+R2
+R3
+R4
+R5
+DEx4 work 14 grpci2_phy_net 0 22 e?T7GmnYCaO@>AT23_W953
+!i122 579
+l568
+L296 537
+V6Iefk`0Jbh666aeP@S:X90
+!s100 0oWjMVWOBC[d=k:n49N`12
+R8
+31
+R139
+!i10b 1
+R75
+R140
+R141
+!i113 0
+R11
+R12
+R13
+Einpad
+R6
+R48
+R1
+R2
+R3
+R4
+R5
+!i122 551
+R0
+Z142 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/inpad.vhd
+Z143 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/inpad.vhd
+l0
+R37
+V7;[ldllCdS10eW88RDBMa2
+!s100 2`PRAW:9a3X`@Q<Q3JBij3
+R8
+31
+R30
+!i10b 1
+R31
+Z144 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/inpad.vhd|
+Z145 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/inpad.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R1
+R2
+R3
+R4
+R5
+DEx4 work 5 inpad 0 22 7;[ldllCdS10eW88RDBMa2
+!i122 551
+l41
+L40 85
+Vh]dFIbj8l6FAkPPCmEg753
+!s100 0lQB^U^ZK>lhoTzKfEI122
+R8
+31
+R30
+!i10b 1
+R31
+R144
+R145
+!i113 0
+R11
+R12
+R13
+Einpad_ddr
+R6
+R48
+R78
+R1
+R2
+R3
+R4
+R5
+!i122 581
+R0
+Z146 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/inpad_ddr.vhd
+Z147 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/inpad_ddr.vhd
+l0
+R73
+VO7<OADe1Dc=8zO4T:QP>20
+!s100 kSUIS03c]39f^bldM9;=F3
+R8
+31
+R139
+!i10b 1
+Z148 !s108 1645711591.000000
+Z149 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/inpad_ddr.vhd|
+Z150 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/inpad_ddr.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R78
+R1
+R2
+R3
+R4
+R5
+DEx4 work 9 inpad_ddr 0 22 O7<OADe1Dc=8zO4T:QP>20
+!i122 581
+l59
+L54 30
+VXk;CzoPR?:`LdYz6mYXmi0
+!s100 ;C<=UaaalS>[81QSnm4dH0
+R8
+31
+R139
+!i10b 1
+R148
+R149
+R150
+!i113 0
+R11
+R12
+R13
+Einpad_ddrv
+R6
+R48
+R1
+R2
+R3
+R4
+R5
+!i122 581
+R0
+R146
+R147
+l0
+R100
+VC83lRH2<nfSJb^F9A0dK83
+!s100 [L4CfVa7_l>3A42IU`:CF0
+R8
+31
+R139
+!i10b 1
+R148
+R149
+R150
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R1
+R2
+R3
+R4
+R5
+DEx4 work 10 inpad_ddrv 0 22 C83lRH2<nfSJb^F9A0dK83
+!i122 581
+l111
+L110 13
+Vgfiz6IGLd[J7Z54leLc]b1
+!s100 bUXRL`ET?ZL?2F1M5lIU03
+R8
+31
+R139
+!i10b 1
+R148
+R149
+R150
+!i113 0
+R11
+R12
+R13
+Einpad_ds
+R6
+R48
+R1
+R2
+R3
+R4
+R5
+!i122 552
+R0
+Z151 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/inpad_ds.vhd
+Z152 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/inpad_ds.vhd
+l0
+R37
+V6nJo:6YzG3HXJ;6::J;df0
+!s100 6iYl_km2VKz4cN49Nbm723
+R8
+31
+R81
+!i10b 1
+R82
+Z153 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/inpad_ds.vhd|
+Z154 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/inpad_ds.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R1
+R2
+R3
+R4
+R5
+DEx4 work 8 inpad_ds 0 22 6nJo:6YzG3HXJ;6::J;df0
+!i122 552
+l40
+L38 47
+Vjh2DoFQ5dR;Fg?]nH[Tg_2
+!s100 >36eg<k?RP@F6jSlJ7K@k2
+R8
+31
+R81
+!i10b 1
+R82
+R153
+R154
+!i113 0
+R11
+R12
+R13
+Einpad_dsv
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 552
+R0
+R151
+R152
+l0
+R100
+V;<fhdefl>6b;GZMJ_SA_12
+!s100 M3zBO4K`DKo18A>K>]g@G2
+R8
+31
+R81
+!i10b 1
+R82
+R153
+R154
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 9 inpad_dsv 0 22 ;<fhdefl>6b;GZMJ_SA_12
+!i122 552
+l100
+L99 6
+Vg8P3Gif2=1GE2c6k=h`1T3
+!s100 4STIbMF@jdaL`Mz_YeBTZ2
+R8
+31
+R81
+!i10b 1
+R82
+R153
+R154
+!i113 0
+R11
+R12
+R13
+Einpadv
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 551
+R0
+R142
+R143
+l0
+L131 1
+VPcnWIbHn7oC]OlcI2gYJ<0
+!s100 fk2[:zaD3z>nLU6e9R8:`3
+R8
+31
+R30
+!i10b 1
+R31
+R144
+R145
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 6 inpadv 0 22 PcnWIbHn7oC]OlcI2gYJ<0
+!i122 551
+l140
+L139 6
+Vi8RCK_n=m]0fn3cQP]g;e1
+!s100 i=l`MR1N::Leo?:UlXd`H1
+R8
+31
+R30
+!i10b 1
+R31
+R144
+R145
+!i113 0
+R11
+R12
+R13
+Eiodpad
+R6
+R48
+R1
+R2
+R3
+R4
+R5
+!i122 553
+R0
+Z155 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/iodpad.vhd
+Z156 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/iodpad.vhd
+l0
+R37
+V]jAg^=`AXX=9_iei9Oi4L1
+!s100 [926jdN2P:48jTX>Vfck@3
+R8
+31
+R81
+!i10b 1
+R82
+Z157 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/iodpad.vhd|
+Z158 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/iodpad.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R1
+R2
+R3
+R4
+R5
+DEx4 work 6 iodpad 0 22 ]jAg^=`AXX=9_iei9Oi4L1
+!i122 553
+l42
+L40 88
+V[za8l19`2:[cbT^BITmJ[1
+!s100 396@`8AgUb<k:VY`]k]6Q0
+R8
+31
+R81
+!i10b 1
+R82
+R157
+R158
+!i113 0
+R11
+R12
+R13
+Eiodpadv
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 553
+R0
+R155
+R156
+l0
+L134 1
+VcJc[6O`AB^9CLM[_9gcT22
+!s100 g;4dS4_2O;@@mkNFanQ5Q0
+R8
+31
+R81
+!i10b 1
+R82
+R157
+R158
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 7 iodpadv 0 22 cJc[6O`AB^9CLM[_9gcT22
+!i122 553
+l144
+L143 7
+V58D_Zi<OQSACB9dYk4?2=2
+!s100 J?UYVlQI^<]OacIF`F7^z2
+R8
+31
+R81
+!i10b 1
+R82
+R157
+R158
+!i113 0
+R11
+R12
+R13
+Eiopad
+R6
+R48
+R1
+R2
+R3
+R4
+R5
+!i122 554
+R0
+Z159 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/iopad.vhd
+Z160 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/iopad.vhd
+l0
+R37
+VD4g6jN?Rae`GMHT5B0@S;0
+!s100 nNBT1j05O4UXG4kM90WgC3
+R8
+31
+R81
+!i10b 1
+R82
+Z161 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/iopad.vhd|
+Z162 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/iopad.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R1
+R2
+R3
+R4
+R5
+DEx4 work 5 iopad 0 22 D4g6jN?Rae`GMHT5B0@S;0
+!i122 554
+l43
+L41 127
+V^<0C2O_1B3e3YUnBgi1=<0
+!s100 hH3c7X8cJ[RXXeI2OZQfh2
+R8
+31
+R81
+!i10b 1
+R82
+R161
+R162
+!i113 0
+R11
+R12
+R13
+Eiopad_ddr
+R6
+R48
+R78
+R1
+R2
+R3
+R4
+R5
+!i122 583
+R0
+Z163 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/iopad_ddr.vhd
+Z164 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/iopad_ddr.vhd
+l0
+R73
+VmlGhOH`ob6Q2<0NfcNfHG1
+!s100 Lm`@:_WhFKid7?b7VaHgU1
+R8
+31
+R139
+!i10b 1
+R148
+Z165 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/iopad_ddr.vhd|
+Z166 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/iopad_ddr.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R78
+R1
+R2
+R3
+R4
+R5
+DEx4 work 9 iopad_ddr 0 22 mlGhOH`ob6Q2<0NfcNfHG1
+!i122 583
+l57
+L55 24
+V8@0K6TlDRffZ;mWm>bel00
+!s100 Tg=VN;iH`a0_z:9c[f6a?0
+R8
+31
+R139
+!i10b 1
+R148
+R165
+R166
+!i113 0
+R11
+R12
+R13
+Eiopad_ddrv
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 583
+R0
+R163
+R164
+l0
+L85 1
+VehmP7BCGCRn<eR<[gl<CF0
+!s100 MU9dMXSJh?9c`5WlO5LQ93
+R8
+31
+R139
+!i10b 1
+R148
+R165
+R166
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 10 iopad_ddrv 0 22 ehmP7BCGCRn<eR<[gl<CF0
+!i122 583
+l105
+L104 7
+V=h_RWZnPO@a9JeOo0GdOA3
+!s100 GFSKSgY?Yn;b_hQAdi=]^2
+R8
+31
+R139
+!i10b 1
+R148
+R165
+R166
+!i113 0
+R11
+R12
+R13
+Eiopad_ddrvv
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 583
+R0
+R163
+R164
+l0
+L117 1
+VR:HCflLg9XF79l;dG><:h0
+!s100 TcF=bF``?azGgzMYfbbfT3
+R8
+31
+R139
+!i10b 1
+R148
+R165
+R166
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 11 iopad_ddrvv 0 22 R:HCflLg9XF79l;dG><:h0
+!i122 583
+l137
+L136 7
+VS=c3j]FTLZj<B3bNZETNR2
+!s100 mLZ:hL]B^eUNl80dzE7MC0
+R8
+31
+R139
+!i10b 1
+R148
+R165
+R166
+!i113 0
+R11
+R12
+R13
+Eiopad_ds
+R6
+R48
+R1
+R2
+R3
+R4
+R5
+!i122 555
+R0
+Z167 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/iopad_ds.vhd
+Z168 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/iopad_ds.vhd
+l0
+R37
+V=Ob7ETU=[2LlXe7:m2LT51
+!s100 0Z_OZY_]0kdPEi[]R:S@_2
+R8
+31
+R81
+!i10b 1
+R82
+Z169 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/iopad_ds.vhd|
+Z170 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/iopad_ds.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R1
+R2
+R3
+R4
+R5
+DEx4 work 8 iopad_ds 0 22 =Ob7ETU=[2LlXe7:m2LT51
+!i122 555
+l42
+R53
+VcMc1Rh:1E38k=0mc>SC290
+!s100 EoT;Y>NGHK7_hYe@I?o4>1
+R8
+31
+R81
+!i10b 1
+R82
+R169
+R170
+!i113 0
+R11
+R12
+R13
+Eiopad_dsv
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 555
+R0
+R167
+R168
+l0
+L116 1
+V0721zSWm3jD3SA6<@aX9k2
+!s100 koIHjO;ANiRYUaRWA;<5k1
+R8
+31
+R81
+!i10b 1
+R82
+R169
+R170
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 9 iopad_dsv 0 22 0721zSWm3jD3SA6<@aX9k2
+!i122 555
+l127
+L126 7
+VZRWn:QAHLLKK<3?b9gbXV0
+!s100 cV4HG2;9W4a2oWeVN?eKg0
+R8
+31
+R81
+!i10b 1
+R82
+R169
+R170
+!i113 0
+R11
+R12
+R13
+Eiopad_dsvv
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 555
+R0
+R167
+R168
+l0
+L139 1
+VmPo1S<>KeJDVoQNJ>3N>@1
+!s100 lAG^gNNI_9K;4=GRYE2Un3
+R8
+31
+R81
+!i10b 1
+R82
+R169
+R170
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 10 iopad_dsvv 0 22 mPo1S<>KeJDVoQNJ>3N>@1
+!i122 555
+l150
+L149 7
+VDNdS0;8m<;IRXf9B1XS8N2
+!s100 ^QGjJ?3dN_YiRSG4go43T0
+R8
+31
+R81
+!i10b 1
+R82
+R169
+R170
+!i113 0
+R11
+R12
+R13
+Eiopad_tm
+R6
+R48
+R1
+R2
+R3
+R4
+R5
+!i122 596
+R0
+Z171 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/iopad_tm.vhd
+Z172 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/iopad_tm.vhd
+l0
+R73
+VIYVA7XO4?bzH90dB?4UK]0
+!s100 f4UGjRfCofN16flAD;LCn2
+R8
+31
+R18
+!i10b 1
+R19
+Z173 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/iopad_tm.vhd|
+Z174 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/iopad_tm.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R1
+R2
+R3
+R4
+R5
+DEx4 work 8 iopad_tm 0 22 IYVA7XO4?bzH90dB?4UK]0
+!i122 596
+l48
+Z175 L45 24
+VVLB6EdE]o:0=cP`5Y4ZL@3
+!s100 6>7_m3=:oBV:><F`YNlo00
+R8
+31
+R18
+!i10b 1
+R19
+R173
+R174
+!i113 0
+R11
+R12
+R13
+Eiopad_tmvv
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 596
+R0
+R171
+R172
+l0
+Z176 L77 1
+VRIl6BRNh^caAH;kPMW?S20
+!s100 lMf1mg8He?7__I?0FeGXz1
+R8
+31
+R18
+!i10b 1
+R19
+R173
+R174
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 10 iopad_tmvv 0 22 RIl6BRNh^caAH;kPMW?S20
+!i122 596
+l92
+L91 7
+V3dSSn5=9I[7j<LaDdEeDn0
+!s100 9zQjO1Lca6=`MXN77T@=g1
+R8
+31
+R18
+!i10b 1
+R19
+R173
+R174
+!i113 0
+R11
+R12
+R13
+Eiopadv
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 554
+R0
+R159
+R160
+l0
+L174 1
+V5i<G=h4?0Yd@PJlU?F:JD3
+!s100 X9HVXK>ob_Oakj2G5V2JP1
+R8
+31
+R81
+!i10b 1
+R82
+R161
+R162
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 6 iopadv 0 22 5i<G=h4?0Yd@PJlU?F:JD3
+!i122 554
+l186
+L185 7
+VQ2RMUkfWfn6UiG]Bm;jJc2
+!s100 PgcVzOWe3=D;cc91[VPh^0
+R8
+31
+R81
+!i10b 1
+R82
+R161
+R162
+!i113 0
+R11
+R12
+R13
+Eiopadvv
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 554
+R0
+R159
+R160
+l0
+L198 1
+VO:R@iZm;;28TLQgP2<ai10
+!s100 ^IWRT`J7=[X6J4VH_Pm7z3
+R8
+31
+R81
+!i10b 1
+R82
+R161
+R162
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 7 iopadvv 0 22 O:R@iZm;;28TLQgP2<ai10
+!i122 554
+l210
+L209 7
+V5QS8ffMG29UJm9CSRf;MR0
+!s100 D`I9beRc8SzPm^a;YKWH=2
+R8
+31
+R81
+!i10b 1
+R82
+R161
+R162
+!i113 0
+R11
+R12
+R13
+Eleon3_net
+R6
+R27
+Z177 DPx5 grlib 7 devices 0 22 fG?4QD?E];dALf0[k]G3f1
+R68
+R70
+R2
+R1
+R69
+Z178 DPx5 grlib 4 amba 0 22 6O_S<EWB;28]:U9Y4=]DQ0
+R4
+R5
+!i122 574
+R0
+Z179 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/leon3_net.vhd
+Z180 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/leon3_net.vhd
+l0
+Z181 L29 1
+V7;cO<0UUiiR9XJ7nAEM@91
+!s100 0[De5o6C6hRQeRQ@IDBB:0
+R8
+31
+R74
+!i10b 1
+R75
+Z182 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/leon3_net.vhd|
+Z183 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/leon3_net.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R27
+R177
+R68
+R70
+R2
+R1
+R69
+R178
+R4
+R5
+DEx4 work 9 leon3_net 0 22 7;cO<0UUiiR9XJ7nAEM@91
+!i122 574
+l372
+L165 864
+VB;1NJ:TB6d44og<?E[WVn2
+!s100 ?oU6fZKjPlQfFk24IdQH71
+R8
+31
+R74
+!i10b 1
+R75
+R182
+R183
+!i113 0
+R11
+R12
+R13
+Eleon4_net
+R6
+R27
+R177
+R68
+R70
+R2
+R1
+R69
+R178
+R4
+R5
+!i122 575
+R0
+Z184 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/leon4_net.vhd
+Z185 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/leon4_net.vhd
+l0
+R181
+VA]J>ala16gWR]oadfaPij0
+!s100 7Pzm:K<fem70Ue_Fb5cjJ2
+R8
+31
+R74
+!i10b 1
+R75
+Z186 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/leon4_net.vhd|
+Z187 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/leon4_net.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R27
+R177
+R68
+R70
+R2
+R1
+R69
+R178
+R4
+R5
+DEx4 work 9 leon4_net 0 22 A]J>ala16gWR]oadfaPij0
+!i122 575
+l339
+L147 340
+VAm_@QIzCSz[z8HDhK_F9L0
+!s100 ``iPABXBj?gNb?o]QDkmS3
+R8
+31
+R74
+!i10b 1
+R75
+R186
+R187
+!i113 0
+R11
+R12
+R13
+Elpddr2phy_wo_pads
+R6
+R78
+R1
+R2
+R3
+R4
+R5
+!i122 563
+R0
+R79
+R80
+l0
+L1248 1
+V4V_0ZY95ULzBFYiNH55=52
+!s100 M2_?SgMG<YAERU>zSYc7C0
+R8
+31
+R81
+!i10b 1
+R82
+R83
+R84
+!i113 0
+R11
+R12
+R13
+Atmap
+R78
+R1
+R2
+R3
+R4
+R5
+DEx4 work 17 lpddr2phy_wo_pads 0 22 4V_0ZY95ULzBFYiNH55=52
+!i122 563
+l1307
+L1306 58
+VGQaFR0>]cMCW>jThh011C3
+!s100 F=4`3Ql5M8d8mIVkOW7d@2
+R8
+31
+R81
+!i10b 1
+R82
+R83
+R84
+!i113 0
+R11
+R12
+R13
+Elvds_combo
+R6
+R48
+R1
+R2
+R3
+R4
+R5
+!i122 556
+R0
+Z188 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/lvds_combo.vhd
+Z189 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/lvds_combo.vhd
+l0
+R37
+Vj1kC0@J;?J;CRo2:FkBhZ0
+!s100 h]DK6]>_RnMoF2Pg=HU7K2
+R8
+31
+R81
+!i10b 1
+R82
+Z190 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/lvds_combo.vhd|
+Z191 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/lvds_combo.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R1
+R2
+R3
+R4
+R5
+DEx4 work 10 lvds_combo 0 22 j1kC0@J;?J;CRo2:FkBhZ0
+!i122 556
+l51
+L47 43
+VahSKcbaRW1P^O`k_3>dlQ1
+!s100 g1Wkn0zkjND;91:GeFQ^a1
+R8
+31
+R81
+!i10b 1
+R82
+R190
+R191
+!i113 0
+R11
+R12
+R13
+Ememrwcol
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 598
+R0
+Z192 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/memrwcol.vhd
+Z193 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/memrwcol.vhd
+l0
+R7
+Vh6g^aXmT[:7VGIiSXCM^O1
+!s100 Bc2<SH?jEfcO3JWLg81HZ2
+R8
+31
+R18
+!i10b 1
+R19
+Z194 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/memrwcol.vhd|
+Z195 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/memrwcol.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 8 memrwcol 0 22 h6g^aXmT[:7VGIiSXCM^O1
+!i122 598
+l78
+L65 119
+VFQOjJHzJ5bk]RdcailKXL1
+!s100 A05KQ0z<3fPX9TkeF6F[V2
+R8
+31
+R18
+!i10b 1
+R19
+R194
+R195
+!i113 0
+R11
+R12
+R13
+Emul_61x61
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 576
+R0
+Z196 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/mul_61x61.vhd
+Z197 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/mul_61x61.vhd
+l0
+R7
+Vc[jgM=Fn6KL?[^1M4La2i2
+!s100 ?M9WCh4mbHJCYQhH_eU^12
+R8
+31
+R74
+!i10b 1
+R75
+Z198 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/mul_61x61.vhd|
+Z199 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/mul_61x61.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 9 mul_61x61 0 22 c[jgM=Fn6KL?[^1M4La2i2
+!i122 576
+l128
+L43 120
+V@[[T:6n8`CM69HglSlSQE3
+!s100 ZjJ@Hn1eHj@?cfCTQ>20l3
+R8
+31
+R74
+!i10b 1
+R75
+R198
+R199
+!i113 0
+R11
+R12
+R13
+Enandtree
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 571
+R0
+Z200 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/nandtree.vhd
+Z201 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/nandtree.vhd
+l0
+R15
+VLERadEYB?fL_c0R7JVXaY3
+!s100 o]S70Zh7k:cS=9B63k0;f1
+R8
+31
+R74
+!i10b 1
+R75
+Z202 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/nandtree.vhd|
+Z203 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/nandtree.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 8 nandtree 0 22 LERadEYB?fL_c0R7JVXaY3
+!i122 571
+l68
+L42 38
+VKVI5dbi]lLPFo3R^6j]iL0
+!s100 1X2;7fBmUf0nHzNl5;HMC1
+R8
+31
+R74
+!i10b 1
+R75
+R202
+R203
+!i113 0
+R11
+R12
+R13
+Pnetcomp
+R27
+R68
+R70
+R2
+R1
+R69
+R178
+R4
+R5
+!i122 526
+R6
+R0
+8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/gencomp/netcomp.vhd
+F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/gencomp/netcomp.vhd
+l0
+R37
+V]`5fdKV][dlC0P>R?PaEZ0
+!s100 L^`]lc5DI3XRF`3d91KYJ0
+R8
+31
+R9
+!i10b 1
+R10
+!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/gencomp/netcomp.vhd|
+!s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/gencomp/netcomp.vhd|
+!i113 0
+R11
+R12
+R13
+Eodpad
+R6
+R48
+R1
+R2
+R3
+R4
+R5
+!i122 557
+R0
+Z204 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/odpad.vhd
+Z205 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/odpad.vhd
+l0
+R37
+V[`jPS`CnTN;fKmDjgh4?^2
+!s100 d=Rz:`:6Hi]37k^J@W`4U2
+R8
+31
+R81
+!i10b 1
+R82
+Z206 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/odpad.vhd|
+Z207 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/odpad.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R1
+R2
+R3
+R4
+R5
+DEx4 work 5 odpad 0 22 [`jPS`CnTN;fKmDjgh4?^2
+!i122 557
+l43
+L41 99
+VKR=PU730dEUfA:^]1PKMK2
+!s100 aZEXfOWP_C9Fkc4ZKa0Hd2
+R8
+31
+R81
+!i10b 1
+R82
+R206
+R207
+!i113 0
+R11
+R12
+R13
+Eodpadv
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 557
+R0
+R204
+R205
+l0
+L146 1
+VU2AjZ2YKhZ<XBE5jM>`DJ2
+!s100 ^7N1gYaRD`oocPFX5L3Wd0
+R8
+31
+R81
+!i10b 1
+R82
+R206
+R207
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 6 odpadv 0 22 U2AjZ2YKhZ<XBE5jM>`DJ2
+!i122 557
+l156
+L155 7
+VOLgC6Ia<W2<<]V@boHheN1
+!s100 GC:b]SCVdXH2RXN5ZWA^F3
+R8
+31
+R81
+!i10b 1
+R82
+R206
+R207
+!i113 0
+R11
+R12
+R13
+Eoutpad
+R6
+R48
+R1
+R2
+R3
+R4
+R5
+!i122 558
+R0
+Z208 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/outpad.vhd
+Z209 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/outpad.vhd
+l0
+R37
+Vi_5@56<5clERNllD4Jc_D2
+!s100 o4T>WG5BMV;Q7QcLhfI>23
+R8
+31
+R81
+!i10b 1
+R82
+Z210 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/outpad.vhd|
+Z211 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/outpad.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R1
+R2
+R3
+R4
+R5
+DEx4 work 6 outpad 0 22 i_5@56<5clERNllD4Jc_D2
+!i122 558
+l42
+L40 92
+Vo80<_Bm9aTgnjZA1i0mQU1
+!s100 7]gdmHYhcEV[7:3zT4Y5b0
+R8
+31
+R81
+!i10b 1
+R82
+R210
+R211
+!i113 0
+R11
+R12
+R13
+Eoutpad_ddr
+R6
+R48
+R78
+R1
+R2
+R3
+R4
+R5
+!i122 582
+R0
+Z212 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/outpad_ddr.vhd
+Z213 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/outpad_ddr.vhd
+l0
+Z214 L37 1
+VBKmRemXID8ZT]MgY8Ed4^3
+!s100 9PUPmie3m]Hn_Y4[WF<WD2
+R8
+31
+R139
+!i10b 1
+R148
+Z215 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/outpad_ddr.vhd|
+Z216 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/outpad_ddr.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R78
+R1
+R2
+R3
+R4
+R5
+DEx4 work 10 outpad_ddr 0 22 BKmRemXID8ZT]MgY8Ed4^3
+!i122 582
+l57
+L55 31
+V:QU0zR?dO62T>B7NLeOaF0
+!s100 6F_SRhzTYJ@ZKXeY1BAoK0
+R8
+31
+R139
+!i10b 1
+R148
+R215
+R216
+!i113 0
+R11
+R12
+R13
+Eoutpad_ddrv
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 582
+R0
+R212
+R213
+l0
+L92 1
+VP?PjnCJiD<foZLl8:c`<V1
+!s100 @=82Kgb4a4N>MLeXa1QfT0
+R8
+31
+R139
+!i10b 1
+R148
+R215
+R216
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 11 outpad_ddrv 0 22 P?PjnCJiD<foZLl8:c`<V1
+!i122 582
+l111
+L110 7
+Vmf9B?haL5ldzIk0bDEm6N0
+!s100 Ge@PIOSL=?HhCH]`1Jz:L0
+R8
+31
+R139
+!i10b 1
+R148
+R215
+R216
+!i113 0
+R11
+R12
+R13
+Eoutpad_ds
+R6
+R48
+R1
+R2
+R3
+R4
+R5
+!i122 559
+R0
+Z217 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/outpad_ds.vhd
+Z218 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/outpad_ds.vhd
+l0
+R37
+VLE83YBbE@nid:BTLL;0zE1
+!s100 CSO828lPHFk^59lZoMMZc0
+R8
+31
+R81
+!i10b 1
+R82
+Z219 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/outpad_ds.vhd|
+Z220 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/outpad_ds.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R1
+R2
+R3
+R4
+R5
+DEx4 work 9 outpad_ds 0 22 LE83YBbE@nid:BTLL;0zE1
+!i122 559
+l41
+L39 48
+V^Efh4zBhmALMMaFj3`8jV0
+!s100 UJ@HeQHofaEZ0]iOm`a:z0
+R8
+31
+R81
+!i10b 1
+R82
+R219
+R220
+!i113 0
+R11
+R12
+R13
+Eoutpad_dsv
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 559
+R0
+R217
+R218
+l0
+R136
+VXBbB[]_OL[nbn6HFf[YJ03
+!s100 TVLZMlgij0gbo2YBc9d?E0
+R8
+31
+R81
+!i10b 1
+R82
+R219
+R220
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 10 outpad_dsv 0 22 XBbB[]_OL[nbn6HFf[YJ03
+!i122 559
+l103
+L102 7
+Vdz<]@LEb8VbC@KggTFNei1
+!s100 5`oN@bPc?4zLBF17Hz22@0
+R8
+31
+R81
+!i10b 1
+R82
+R219
+R220
+!i113 0
+R11
+R12
+R13
+Eoutpadv
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 558
+R0
+R208
+R209
+l0
+L138 1
+V7AWEfP]AJ9E?@WZd=BbMY1
+!s100 5<?1HzED1X82R7gFUj5L93
+R8
+31
+R81
+!i10b 1
+R82
+R210
+R211
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 7 outpadv 0 22 7AWEfP]AJ9E?@WZd=BbMY1
+!i122 558
+l147
+L146 7
+VHeM_C^P7@MIYo4NgMW<W73
+!s100 D8Z7gkZ7M2GfT7Y727XE^2
+R8
+31
+R81
+!i10b 1
+R82
+R210
+R211
+!i113 0
+R11
+R12
+R13
+Eregfile_3p
+R6
+Z221 DPx7 techmap 6 allmem 0 22 ]f0GD=5IfOlJ>fb41MWBL0
+R1
+R2
+R3
+R4
+R5
+!i122 569
+R0
+Z222 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/regfile_3p.vhd
+Z223 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/regfile_3p.vhd
+l0
+R37
+VnTU0d8FkW^hIBafkBnV_30
+!s100 9;F=U9[7JmWLMHej86bG72
+R8
+31
+R74
+!i10b 1
+R75
+Z224 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/regfile_3p.vhd|
+Z225 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/regfile_3p.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R221
+R1
+R2
+R3
+R4
+R5
+DEx4 work 10 regfile_3p 0 22 nTU0d8FkW^hIBafkBnV_30
+!i122 569
+l63
+L55 41
+VYNNBMXZj`DhJXzKmYooo;1
+!s100 J?5gXbXlG1_fC7^U?k9Am3
+R8
+31
+R74
+!i10b 1
+R75
+R224
+R225
+!i113 0
+R11
+R12
+R13
+Eringosc
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 578
+R0
+Z226 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/ringosc.vhd
+Z227 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/ringosc.vhd
+l0
+R15
+VXBUe7U_HTDmKci>LmRhF_2
+!s100 5QSO2n<i4dTNKV_l^gCBc1
+R8
+31
+R74
+!i10b 1
+R75
+Z228 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/ringosc.vhd|
+Z229 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/ringosc.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 7 ringosc 0 22 XBUe7U_HTDmKci>LmRhF_2
+!i122 578
+l69
+L38 63
+V43AQm6A;fU@SHZLWQQ1I31
+!s100 IDf>jBTjM@hK0g7F:XBjM2
+R8
+31
+R74
+!i10b 1
+R75
+R228
+R229
+!i113 0
+R11
+R12
+R13
+Escanregi
+R6
+Z230 DPx7 techmap 6 alltap 0 22 2:kR?G>HSfPCm6N:Dh=8C1
+R1
+R2
+R3
+R4
+R5
+!i122 590
+R0
+Z231 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/scanreg.vhd
+Z232 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/scanreg.vhd
+l0
+R37
+VKcWJWJOO<_mKP6@`k[R:^0
+!s100 LH>_zMRfNZ<KAmQ]H46LY1
+R8
+31
+R139
+!i10b 1
+R148
+Z233 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/scanreg.vhd|
+Z234 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/scanreg.vhd|
+!i113 0
+R11
+R12
+R13
+Atmap
+R230
+R1
+R2
+R3
+R4
+R5
+DEx4 work 8 scanregi 0 22 KcWJWJOO<_mKP6@`k[R:^0
+!i122 590
+l55
+L53 26
+VDQ^YCEXVCLCg3aW05g05]0
+!s100 eL9DY^J`H9ob02;9kLiQ]0
+R8
+31
+R139
+!i10b 1
+R148
+R233
+R234
+!i113 0
+R11
+R12
+R13
+Escanregio
+R6
+R230
+R1
+R2
+R3
+R4
+R5
+!i122 590
+R0
+R231
+R232
+l0
+L200 1
+VQ@f5e>fLBz]Y@mmY@U`LU2
+!s100 zZ5hemH`[K4loeez6m0CV3
+R8
+31
+R139
+!i10b 1
+R148
+R233
+R234
+!i113 0
+R11
+R12
+R13
+Atmap
+R230
+R1
+R2
+R3
+R4
+R5
+DEx4 work 9 scanregio 0 22 Q@f5e>fLBz]Y@mmY@U`LU2
+!i122 590
+l234
+L232 19
+Va<PAhaW@eV6lf><N3i>OK1
+!s100 HQ9K:2XYKdg1TlaYALUPG0
+R8
+31
+R139
+!i10b 1
+R148
+R233
+R234
+!i113 0
+R11
+R12
+R13
+Escanrego
+R6
+R230
+R1
+R2
+R3
+R4
+R5
+!i122 590
+R0
+R231
+R232
+l0
+L88 1
+VAUI0jmPTMSbR<S2FFSDC]2
+!s100 j2;<XnGcBe^;RL7FQ<DRj2
+R8
+31
+R139
+!i10b 1
+R148
+R233
+R234
+!i113 0
+R11
+R12
+R13
+Atmap
+R230
+R1
+R2
+R3
+R4
+R5
+DEx4 work 8 scanrego 0 22 AUI0jmPTMSbR<S2FFSDC]2
+!i122 590
+l110
+L107 20
+V@lm3ik08QDeAd`JhzCc_n3
+!s100 JmgX4=NA?h`MEncVSlK^S0
+R8
+31
+R139
+!i10b 1
+R148
+R233
+R234
+!i113 0
+R11
+R12
+R13
+Escanregto
+R6
+R230
+R1
+R2
+R3
+R4
+R5
+!i122 590
+R0
+R231
+R232
+l0
+L135 1
+V<KmN0Qz7WD^HI_>IcJ=`<2
+!s100 9XL7@N1zKN1iG4CeI?Zom0
+R8
+31
+R139
+!i10b 1
+R148
+R233
+R234
+!i113 0
+R11
+R12
+R13
+Atmap
+R230
+R1
+R2
+R3
+R4
+R5
+DEx4 work 9 scanregto 0 22 <KmN0Qz7WD^HI_>IcJ=`<2
+!i122 590
+l165
+L163 29
+V]46]lL<Ilaj:bF>NG170A2
+!s100 6l7AX<icK:KNKN35hURmi2
+R8
+31
+R139
+!i10b 1
+R148
+R233
+R234
+!i113 0
+R11
+R12
+R13
+Esdram_phy
+R6
+R48
+R1
+R2
+R3
+R68
+R69
+R70
+R4
+R5
+!i122 593
+R0
+Z235 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/sdram_phy.vhd
+Z236 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/sdram_phy.vhd
+l0
+R214
+V62?H4:U<1OFTz?`e?9B8E3
+!s100 UYi]X0fIN]mEa5Q[XN0hZ1
+R8
+31
+R18
+!i10b 1
+R148
+Z237 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/sdram_phy.vhd|
+Z238 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/sdram_phy.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R1
+R2
+R3
+R68
+R69
+R70
+R4
+R5
+DEx4 work 9 sdram_phy 0 22 62?H4:U<1OFTz?`e?9B8E3
+!i122 593
+l108
+L81 155
+V<^Pjd8306an@X27=?:6Ko2
+!s100 AJkg0`KlZAT0ImaZh;J3n1
+R8
+31
+R18
+!i10b 1
+R148
+R237
+R238
+!i113 0
+R11
+R12
+R13
+Eserdes
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 595
+R0
+Z239 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/serdes.vhd
+Z240 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/serdes.vhd
+l0
+L34 1
+VAJZ@cmY8oO0mZ1Qe]_bGB0
+!s100 F=JjMn8bUCLJ8I0IhCS:D1
+R8
+31
+R18
+!i10b 1
+R19
+Z241 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/serdes.vhd|
+Z242 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/serdes.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 6 serdes 0 22 AJZ@cmY8oO0mZ1Qe]_bGB0
+!i122 595
+l147
+L64 282
+V9aGYOT@zm1R]bW0R<fd7Q0
+!s100 Yf0anAfOZ8DnXGCI`CXQB2
+R8
+31
+R18
+!i10b 1
+R19
+R241
+R242
+!i113 0
+R11
+R12
+R13
+Esim_pll
+R6
+R68
+R69
+R70
+R4
+R5
+!i122 539
+R0
+Z243 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/sim_pll.vhd
+Z244 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/sim_pll.vhd
+l0
+R7
+VGlTWAJPF@BAR;Z0`0IjT=3
+!s100 362<eHcQl]:d@]0FhI5O20
+R8
+31
+R30
+!i10b 1
+R31
+Z245 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/sim_pll.vhd|
+Z246 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/inferred/sim_pll.vhd|
+!i113 0
+R11
+R12
+R13
+Asim
+R68
+R69
+R70
+R4
+R5
+DEx4 work 7 sim_pll 0 22 GlTWAJPF@BAR;Z0`0IjT=3
+!i122 539
+l67
+L60 148
+VhOL;9_E?DeK4eJK_Y@QoW1
+!s100 5UiYBCIG_[W40kUmSCi_E0
+R8
+31
+R30
+!i10b 1
+R31
+R245
+R246
+!i113 0
+R11
+R12
+R13
+Eskew_outpad
+R6
+R48
+R1
+R2
+R3
+R4
+R5
+!i122 562
+R0
+Z247 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/skew_outpad.vhd
+Z248 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/skew_outpad.vhd
+l0
+R37
+V8SKBGePVGVlijDUaSmFH]2
+!s100 h6DTIG?a=YVSkQRha]^DY2
+R8
+31
+R81
+!i10b 1
+R82
+Z249 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/skew_outpad.vhd|
+Z250 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/skew_outpad.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R1
+R2
+R3
+R4
+R5
+DEx4 work 11 skew_outpad 0 22 8SKBGePVGVlijDUaSmFH]2
+!i122 562
+l42
+L40 15
+V2N[9hdA<g>?@kf09M02V@1
+!s100 Hoc20WJAKQW8^FL7jmz2A3
+R8
+31
+R81
+!i10b 1
+R82
+R249
+R250
+!i113 0
+R11
+R12
+R13
+Espictrl_net
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 589
+R0
+Z251 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/spictrl_net.vhd
+Z252 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/spictrl_net.vhd
+l0
+R37
+VD_PSFaMaV^A8c]oN`bQH33
+!s100 CnBM?if]WLc>3AHQC`khT0
+R8
+31
+R139
+!i10b 1
+R148
+Z253 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/spictrl_net.vhd|
+Z254 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/spictrl_net.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 11 spictrl_net 0 22 D_PSFaMaV^A8c]oN`bQH33
+!i122 589
+l126
+L86 93
+V?J<BiIJcklES;@K3I@hf81
+!s100 V<2kmz2zOJz6_TFQ^]<YD3
+R8
+31
+R139
+!i10b 1
+R148
+R253
+R254
+!i113 0
+R11
+R12
+R13
+Esyncfifo_2p
+R6
+R68
+R69
+R70
+Z255 DPx4 work 6 allmem 0 22 ]f0GD=5IfOlJ>fb41MWBL0
+R1
+R2
+R3
+R4
+R5
+!i122 568
+R0
+Z256 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncfifo_2p.vhd
+Z257 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncfifo_2p.vhd
+l0
+L52 1
+VL;9QMcS7:YM@o>?mdzV`83
+!s100 FeFWD_:A_MXW4mIj5le]b3
+R8
+31
+R74
+!i10b 1
+R75
+Z258 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncfifo_2p.vhd|
+Z259 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncfifo_2p.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R68
+R69
+R70
+R255
+R1
+R2
+R3
+R4
+R5
+DEx4 work 11 syncfifo_2p 0 22 L;9QMcS7:YM@o>?mdzV`83
+!i122 568
+l130
+L89 139
+VVWfIzPz0jE`CbK7?_8^WY2
+!s100 lBMLXUP4O_add13J0n02_3
+R8
+31
+R74
+!i10b 1
+R75
+R258
+R259
+!i113 0
+R11
+R12
+R13
+Esyncram
+R6
+R255
+R27
+R68
+R69
+R70
+R1
+R2
+R4
+R5
+!i122 564
+R0
+Z260 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram.vhd
+Z261 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram.vhd
+l0
+R73
+VP28`zh:A1_>jgcK6JAK1m2
+!s100 1_G6QiOj<VUGm2ma`^D]E2
+R8
+31
+R81
+!i10b 1
+R82
+Z262 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram.vhd|
+Z263 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R255
+R27
+R68
+R69
+R70
+R1
+R2
+R4
+R5
+DEx4 work 7 syncram 0 22 P28`zh:A1_>jgcK6JAK1m2
+!i122 564
+l78
+L52 480
+VY>84Qeh<;Y[]UC;ZJi6m@0
+!s100 n0IJ7;DY4<Xg3Hh?2S?C=3
+R8
+31
+R81
+!i10b 1
+R82
+R262
+R263
+!i113 0
+R11
+R12
+R13
+Esyncram128
+R6
+R68
+R69
+R70
+R221
+R1
+R2
+R3
+R4
+R5
+!i122 586
+R0
+Z264 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram128.vhd
+Z265 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram128.vhd
+l0
+Z266 L38 1
+V?eCdYc_I<PmBhThB7PTeB3
+!s100 3IGORK0S?AmYB<Pnhc1UN0
+R8
+31
+R139
+!i10b 1
+R148
+Z267 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram128.vhd|
+Z268 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram128.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R68
+R69
+R70
+R221
+R1
+R2
+R3
+R4
+R5
+DEx4 work 10 syncram128 0 22 ?eCdYc_I<PmBhThB7PTeB3
+!i122 586
+l87
+L53 125
+VU2^?RdAH65XN=@>a^MaW61
+!s100 iPeigS<XnlO[fcaPmQ@TV1
+R8
+31
+R139
+!i10b 1
+R148
+R267
+R268
+!i113 0
+R11
+R12
+R13
+Esyncram128bw
+R6
+R68
+R69
+R70
+R1
+R2
+R3
+R4
+R5
+!i122 584
+R0
+Z269 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram128bw.vhd
+Z270 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram128bw.vhd
+l0
+R214
+V;iQC0V]K;ZHg`?6f38;;k0
+!s100 zz3UG4Ol5J]kOUR[?S>WK0
+R8
+31
+R139
+!i10b 1
+R148
+Z271 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram128bw.vhd|
+Z272 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram128bw.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R68
+R69
+R70
+R1
+R2
+R3
+R4
+R5
+DEx4 work 12 syncram128bw 0 22 ;iQC0V]K;ZHg`?6f38;;k0
+!i122 584
+l120
+L51 138
+V`U@Ica4ZEV_6Ab_6nKcNQ0
+!s100 c6WX3cCgVh7f@68g@DAT20
+R8
+31
+R139
+!i10b 1
+R148
+R271
+R272
+!i113 0
+R11
+R12
+R13
+Esyncram156bw
+R6
+R68
+R69
+R70
+R221
+R1
+R2
+R3
+R4
+R5
+!i122 587
+R0
+Z273 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram156bw.vhd
+Z274 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram156bw.vhd
+l0
+R114
+V66Yd:D83Y_@2oUF]4Q>l]3
+!s100 h[[K7nVTFfOGc`WaXA6g93
+R8
+31
+R139
+!i10b 1
+R148
+Z275 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram156bw.vhd|
+Z276 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram156bw.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R68
+R69
+R70
+R221
+R1
+R2
+R3
+R4
+R5
+DEx4 work 12 syncram156bw 0 22 66Yd:D83Y_@2oUF]4Q>l]3
+!i122 587
+l180
+L53 302
+V?1h@E@[;<E8HS`I<mQP:P3
+!s100 Oh^zKaoaaBi`TX3Z>4;oo3
+R8
+31
+R139
+!i10b 1
+R148
+R275
+R276
+!i113 0
+R11
+R12
+R13
+Esyncram256bw
+R6
+R68
+R69
+R70
+R1
+R2
+R3
+R4
+R5
+!i122 585
+R0
+Z277 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram256bw.vhd
+Z278 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram256bw.vhd
+l0
+R214
+VgOmfZWeoA@g1<C3D8^IN@2
+!s100 nGZ53@zz5XHl];G^medgS2
+R8
+31
+R139
+!i10b 1
+R148
+Z279 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram256bw.vhd|
+Z280 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram256bw.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R68
+R69
+R70
+R1
+R2
+R3
+R4
+R5
+DEx4 work 12 syncram256bw 0 22 gOmfZWeoA@g1<C3D8^IN@2
+!i122 585
+l132
+L51 165
+V3KZ@O^Jk0B=19lDl5Rd5H2
+!s100 F`20:L77=HHY=N08V;2CG0
+R8
+31
+R139
+!i10b 1
+R148
+R279
+R280
+!i113 0
+R11
+R12
+R13
+Esyncram64
+R6
+R68
+R69
+R70
+R221
+R1
+R2
+R3
+R4
+R5
+!i122 565
+R0
+Z281 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram64.vhd
+Z282 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram64.vhd
+l0
+R266
+Vn3i637j;fRg?7KPSKVV^13
+!s100 XS<mhHKYo@9jHF0:`KDOI1
+R8
+31
+R81
+!i10b 1
+R82
+Z283 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram64.vhd|
+Z284 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram64.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R68
+R69
+R70
+R221
+R1
+R2
+R3
+R4
+R5
+DEx4 work 9 syncram64 0 22 n3i637j;fRg?7KPSKVV^13
+!i122 565
+l121
+L53 196
+VgE5@3:93ZQ?UPiEFINbV13
+!s100 3j;llZA;G5C1ze4M@PE680
+R8
+31
+R81
+!i10b 1
+R82
+R283
+R284
+!i113 0
+R11
+R12
+R13
+Esyncram_2p
+R6
+R68
+R70
+R255
+R1
+R2
+R3
+R69
+R4
+R5
+!i122 566
+R0
+Z285 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram_2p.vhd
+Z286 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram_2p.vhd
+l0
+R94
+VLGOjKjDD`UBYLDRl5HK982
+!s100 c;1ZoZz]>=H7XS<f5ML>52
+R8
+31
+R74
+!i10b 1
+R75
+Z287 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram_2p.vhd|
+Z288 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram_2p.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R68
+R70
+R255
+R1
+R2
+R3
+R69
+R4
+R5
+DEx4 work 10 syncram_2p 0 22 LGOjKjDD`UBYLDRl5HK982
+!i122 566
+l122
+L58 584
+V8mmkb9LWm[W4=e1Fe<@3E3
+!s100 S:U:_i9TQJ91BHeR><GNP2
+R8
+31
+R74
+!i10b 1
+R75
+R287
+R288
+!i113 0
+R11
+R12
+R13
+Esyncram_2pbw
+R6
+R68
+R69
+R70
+R221
+R1
+R2
+R3
+R4
+R5
+!i122 592
+R0
+Z289 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram_2pbw.vhd
+Z290 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram_2pbw.vhd
+l0
+R266
+VoYDSEzgM83@PlWej:=zcJ0
+!s100 lcC9;Df@>g9f0i]?jW7H@2
+R8
+31
+R139
+!i10b 1
+R148
+Z291 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram_2pbw.vhd|
+Z292 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram_2pbw.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R68
+R69
+R70
+R221
+R1
+R2
+R3
+R4
+R5
+DEx4 work 12 syncram_2pbw 0 22 oYDSEzgM83@PlWej:=zcJ0
+!i122 592
+l70
+L56 171
+V4gHgnQ2Yc_hEiGTcZ5;hM2
+!s100 [5>>TDkfi41NZ8X8[oh^70
+R8
+31
+R139
+!i10b 1
+R148
+R291
+R292
+!i113 0
+R11
+R12
+R13
+Esyncram_dp
+R6
+R68
+R69
+R70
+R255
+R1
+R2
+R3
+R4
+R5
+!i122 567
+R0
+Z293 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram_dp.vhd
+Z294 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram_dp.vhd
+l0
+R214
+V?lNSmKcTI44@1jzWE_:M80
+!s100 E<^A:f_iF;K[dILYK_iX33
+R8
+31
+R74
+!i10b 1
+R75
+Z295 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram_dp.vhd|
+Z296 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncram_dp.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R68
+R69
+R70
+R255
+R1
+R2
+R3
+R4
+R5
+DEx4 work 10 syncram_dp 0 22 ?lNSmKcTI44@1jzWE_:M80
+!i122 567
+l103
+L59 364
+V3T@J]]DmaN0B@DidBj2R63
+!s100 z;4ce:EMKVzlR[OXH;_I[3
+R8
+31
+R74
+!i10b 1
+R75
+R295
+R296
+!i113 0
+R11
+R12
+R13
+Esyncrambw
+R6
+R68
+R69
+R70
+R221
+R1
+R2
+R3
+R4
+R5
+!i122 591
+R0
+Z297 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncrambw.vhd
+Z298 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncrambw.vhd
+l0
+R266
+VfIZff0VL@KM<dnN>KbYn41
+!s100 08`hoR@m6i`TgiRHMP]Ao1
+R8
+31
+R139
+!i10b 1
+R148
+Z299 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncrambw.vhd|
+Z300 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncrambw.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R68
+R69
+R70
+R221
+R1
+R2
+R3
+R4
+R5
+DEx4 work 9 syncrambw 0 22 fIZff0VL@KM<dnN>KbYn41
+!i122 591
+l67
+L53 184
+VdKJ<eF5R6kWiSBl=o4[Ca2
+!s100 K9@;efHD4hCPehJFRHlQo1
+R8
+31
+R139
+!i10b 1
+R148
+R299
+R300
+!i113 0
+R11
+R12
+R13
+Esyncreg
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 594
+R0
+Z301 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncreg.vhd
+Z302 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncreg.vhd
+l0
+R7
+VBEN:^OQe_JZZ5HhLCzgG>3
+!s100 EjZbimQN<=O3=ozWWW^1Q0
+R8
+31
+R18
+!i10b 1
+R19
+Z303 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncreg.vhd|
+Z304 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/syncreg.vhd|
+!i113 0
+R11
+R12
+R13
+Atmap
+R1
+R2
+R3
+R4
+R5
+DEx4 work 7 syncreg 0 22 BEN:^OQe_JZZ5HhLCzgG>3
+!i122 594
+l46
+L44 33
+VAG0d9hOXk^DmVdl7N_JB72
+!s100 <VRldmBJocR@nZXikez^b3
+R8
+31
+R18
+!i10b 1
+R19
+R303
+R304
+!i113 0
+R11
+R12
+R13
+Esystem_monitor
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 580
+R0
+Z305 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/system_monitor.vhd
+Z306 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/system_monitor.vhd
+l0
+R7
+V7DX:LMkf;;_kS09c>lhTM2
+!s100 M@egTgAZEU0PgIn7J<WG>0
+R8
+31
+R139
+!i10b 1
+R148
+Z307 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/system_monitor.vhd|
+Z308 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/system_monitor.vhd|
+!i113 0
+R11
+R12
+R13
+Astruct
+R1
+R2
+R3
+R4
+R5
+DEx4 work 14 system_monitor 0 22 7DX:LMkf;;_kS09c>lhTM2
+!i122 580
+l201
+L90 279
+VO4IRNdS8A0cUV]Z4^Kko<3
+!s100 KOoUmQ_:BUMRQ@TPE9EXA1
+R8
+31
+R139
+!i10b 1
+R148
+R307
+R308
+!i113 0
+R11
+R12
+R13
+Etap
+R6
+R68
+R69
+R70
+R230
+R1
+R2
+R3
+R4
+R5
+!i122 570
+R0
+Z309 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/tap.vhd
+Z310 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/tap.vhd
+l0
+R266
+VjYWdPE[omzmZL38N;SRSF3
+!s100 UUn2L0?X@G[0NbC0K3?1J3
+R8
+31
+R74
+!i10b 1
+R75
+Z311 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/tap.vhd|
+Z312 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/tap.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R68
+R69
+R70
+R230
+R1
+R2
+R3
+R4
+R5
+DEx4 work 3 tap 0 22 jYWdPE[omzmZL38N;SRSF3
+!i122 570
+l82
+L80 207
+VIDJE6l25XC:J?iMOHFIi13
+!s100 4]HeeVzfl>M`ek[P:[Gh41
+R8
+31
+R74
+!i10b 1
+R75
+R311
+R312
+!i113 0
+R11
+R12
+R13
+Etechbuf
+R6
+R34
+R1
+R2
+R3
+R4
+R5
+!i122 541
+R0
+Z313 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/techbuf.vhd
+Z314 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/techbuf.vhd
+l0
+R7
+Vh5cYGG3`dUhGEokAzVM4b1
+!s100 NG7jGU=h304LI>>AHd<U]0
+R8
+31
+R30
+!i10b 1
+R31
+Z315 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/techbuf.vhd|
+Z316 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/techbuf.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R34
+R1
+R2
+R3
+R4
+R5
+DEx4 work 7 techbuf 0 22 h5cYGG3`dUhGEokAzVM4b1
+!i122 541
+l82
+L39 97
+VLfAO7=HjzBFl2MHM24_SP2
+!s100 6cje]CECMM9DS@@ZYV5BT1
+R8
+31
+R30
+!i10b 1
+R31
+R315
+R316
+!i113 0
+R11
+R12
+R13
+Etechmult
+R6
+R1
+R2
+R3
+Z317 DPx7 techmap 6 allmul 0 22 INl1<<V1]386hOikW`nPJ3
+Z318 DPx5 grlib 7 multlib 0 22 aD>Z[8XSgLQR9N9K7MM<E2
+R68
+R69
+R70
+R4
+R5
+!i122 588
+R0
+Z319 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/techmult.vhd
+Z320 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/techmult.vhd
+l0
+R73
+VkH1D^`GfmC>>5OcBZ^Zi_2
+!s100 gzjDzB]DZ4EZcc=^F_j^`2
+R8
+31
+R139
+!i10b 1
+R148
+Z321 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/techmult.vhd|
+Z322 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/techmult.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R317
+R318
+R68
+R69
+R70
+R4
+R5
+DEx4 work 8 techmult 0 22 kH1D^`GfmC>>5OcBZ^Zi_2
+!i122 588
+l61
+L53 170
+VVBCW0dV[k4[a9neY?dV@F2
+!s100 Ea71:9X5<UeM^aQXf9Nl`2
+R8
+31
+R139
+!i10b 1
+R148
+R321
+R322
+!i113 0
+R11
+R12
+R13
+Etoutpad
+R6
+R48
+R1
+R2
+R3
+R4
+R5
+!i122 560
+R0
+Z323 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/toutpad.vhd
+Z324 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/toutpad.vhd
+l0
+R37
+V@P@PS:c9jE19PNnHc>5G:3
+!s100 Z0Q2@dCd@D_;NFgG3Y_S^1
+R8
+31
+R81
+!i10b 1
+R82
+Z325 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/toutpad.vhd|
+Z326 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/toutpad.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R1
+R2
+R3
+R4
+R5
+DEx4 work 7 toutpad 0 22 @P@PS:c9jE19PNnHc>5G:3
+!i122 560
+l44
+L41 117
+V9Ik^<BXgBL@9F[@4GIY;Z1
+!s100 T`0BaB9O_>M=6EMz`9Ug`2
+R8
+31
+R81
+!i10b 1
+R82
+R325
+R326
+!i113 0
+R11
+R12
+R13
+Etoutpad_ds
+R6
+R48
+R1
+R2
+R3
+R4
+R5
+!i122 561
+R0
+Z327 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/toutpad_ds.vhd
+Z328 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/toutpad_ds.vhd
+l0
+R37
+V3KSNW><Tfmn=RT@WiVN0:3
+!s100 aNiGQe4z2RSaITEz^UFLV2
+R8
+31
+R81
+!i10b 1
+R82
+Z329 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/toutpad_ds.vhd|
+Z330 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/toutpad_ds.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R1
+R2
+R3
+R4
+R5
+DEx4 work 10 toutpad_ds 0 22 3KSNW><Tfmn=RT@WiVN0:3
+!i122 561
+l43
+L40 60
+V8i=Ymhb0nZk3m[fgh^GTI0
+!s100 LaOOb<@e53GC?fU2Im3172
+R8
+31
+R81
+!i10b 1
+R82
+R329
+R330
+!i113 0
+R11
+R12
+R13
+Etoutpad_dsv
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 561
+R0
+R327
+R328
+l0
+L106 1
+Va[0co76B7hOc6:?:aF7X30
+!s100 ]KdS]M]z`U38:FJ=8YTDd1
+R8
+31
+R81
+!i10b 1
+R82
+R329
+R330
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 11 toutpad_dsv 0 22 a[0co76B7hOc6:?:aF7X30
+!i122 561
+l117
+L116 7
+VD4_WP5N[3:^LOUlJOdlCV3
+!s100 SO^llWUjOM^TJZ;m6fBQ92
+R8
+31
+R81
+!i10b 1
+R82
+R329
+R330
+!i113 0
+R11
+R12
+R13
+Etoutpad_dsvv
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 561
+R0
+R327
+R328
+l0
+L129 1
+V]2ER4DFH@9G8LdmTaPo__2
+!s100 6j7bZNKZ1>a5MT@;];zTj2
+R8
+31
+R81
+!i10b 1
+R82
+R329
+R330
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 12 toutpad_dsvv 0 22 ]2ER4DFH@9G8LdmTaPo__2
+!i122 561
+l140
+L139 7
+VB1QAAXS901<g_[ZIgg=2m0
+!s100 Y0jP;JC25FEH3V@1XiED]0
+R8
+31
+R81
+!i10b 1
+R82
+R329
+R330
+!i113 0
+R11
+R12
+R13
+Etoutpad_tm
+R6
+R48
+R1
+R2
+R3
+R4
+R5
+!i122 597
+R0
+Z331 8/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/toutpad_tm.vhd
+Z332 F/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/toutpad_tm.vhd
+l0
+R73
+V0R7AM=0@_GH;@43CGHzGl3
+!s100 X?9n1IboP<gGc]^KO[`1?3
+R8
+31
+R18
+!i10b 1
+R19
+Z333 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|-stats=none|/home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/toutpad_tm.vhd|
+Z334 !s107 /home/matteo/MasterThesis/grlib-gpl-2022.1-b4272/lib/techmap/maps/toutpad_tm.vhd|
+!i113 0
+R11
+R12
+R13
+Artl
+R48
+R1
+R2
+R3
+R4
+R5
+DEx4 work 10 toutpad_tm 0 22 0R7AM=0@_GH;@43CGHzGl3
+!i122 597
+l48
+R175
+V1LOAiHBLABdeMXPGR0f^81
+!s100 RY^4>MXo>klnUTjFaQ;Xo3
+R8
+31
+R18
+!i10b 1
+R19
+R333
+R334
+!i113 0
+R11
+R12
+R13
+Etoutpad_tmvv
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 597
+R0
+R331
+R332
+l0
+R176
+Vz_@YWR?nLkc2;MWCAhXSX2
+!s100 6MHUIm1TcX<N]:Sl>P;V22
+R8
+31
+R18
+!i10b 1
+R19
+R333
+R334
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 12 toutpad_tmvv 0 22 z_@YWR?nLkc2;MWCAhXSX2
+!i122 597
+l91
+L90 7
+V1QTEkKDFcaU;BK6O_b5On1
+!s100 hN3HkLAeA_CG[Y0M`LOa_2
+R8
+31
+R18
+!i10b 1
+R19
+R333
+R334
+!i113 0
+R11
+R12
+R13
+Etoutpadv
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 560
+R0
+R323
+R324
+l0
+L164 1
+VBNoOloU8kJdKg>_YV0e`]0
+!s100 QfLjf[4Mk<>70g6[]ARTo0
+R8
+31
+R81
+!i10b 1
+R82
+R325
+R326
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 8 toutpadv 0 22 BNoOloU8kJdKg>_YV0e`]0
+!i122 560
+l176
+L175 7
+Vc;7D[_c><[`P_R=H_FK;C2
+!s100 f<XQ9=7G8i7J>L0;c=fCV2
+R8
+31
+R81
+!i10b 1
+R82
+R325
+R326
+!i113 0
+R11
+R12
+R13
+Etoutpadvv
+R6
+R1
+R2
+R3
+R4
+R5
+!i122 560
+R0
+R323
+R324
+l0
+L188 1
+V?;fJd7GaFOQLH[0R8nEE70
+!s100 [60PNfAnEmZ=2AeLe>J=>1
+R8
+31
+R81
+!i10b 1
+R82
+R325
+R326
+!i113 0
+R11
+R12
+R13
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 9 toutpadvv 0 22 ?;fJd7GaFOQLH[0R8nEE70
+!i122 560
+l199
+L198 7
+V@1UWlQL@iZEgNYNUOo0;C1
+!s100 ]?^ZYIRI8fmHaS65Yjm8]1
+R8
+31
+R81
+!i10b 1
+R82
+R325
+R326
+!i113 0
+R11
+R12
+R13
