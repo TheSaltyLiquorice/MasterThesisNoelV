@@ -127,3 +127,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# tmp files grlib
+modelsim 
+transcript 
+.mti 
+stdout.log 
+vsim.wlf 
+vsim_stacktrace.vstf
+.mpf.bak 
+.mti 
+.mpf 
+wlft
+

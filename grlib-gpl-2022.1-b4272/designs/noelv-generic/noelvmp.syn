@@ -1,7 +1,0 @@
-JDF B
-PROJECT noelvmp
-DESIGN noelvmp Normal
-DEVKIT 
-ENTRY EDIF
-MODULE ./synplify/noelvmp.edf
-MODSTYLE noelvmp Normal

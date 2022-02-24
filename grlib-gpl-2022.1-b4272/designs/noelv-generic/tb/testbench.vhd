@@ -47,7 +47,9 @@ entity testbench is
     disas   : integer := CFG_DISAS;
     dm_ctrl : integer := 0;
     romfile : string := "prom.srec"; -- rom contents
-    ramfile : string := "ram.srec"  -- ram contents
+    ramfile : string := "ram.srec";  -- ram contents
+    finish_after : integer := 41;  -- matteo: number of instructions to execute, then halt the simulation
+    finish_after_en : integer := 0  -- matteo: enable option: end simulation after number of instructions
     );
 end;
 
@@ -182,10 +184,19 @@ begin
     if to_x01(cpu0errn) = '1' then
       wait on cpu0errn;
     end if;
-    assert (to_x01(cpu0errn) = '1')
-      report "*** IU in error mode, simulation halted ***"
-      severity failure;			-- this should be a failure
+--    assert (to_x01(cpu0errn) = '1')
+--      report "*** IU in error mode, simulation halted ***"
+--      severity failure;			-- this should be a failure
   end process;
+
+  halt_sim : process(clk)  --matteo
+  begin
+    if finish_after_en = 1 then
+      assert (to_integer(unsigned(instr_cnt)) < finish_after)
+	report "*** Test finished after " & integer'image(to_integer(unsigned(instr_cnt))) & " instructions ***"
+	severity failure;
+    end if;
+  end process; 
 
   dsucom : process
     procedure read_srec(

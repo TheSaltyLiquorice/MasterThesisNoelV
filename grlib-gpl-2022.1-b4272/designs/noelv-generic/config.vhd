@@ -28,7 +28,7 @@ package config is
   constant CFG_NCPU : integer := (1);
   constant CFG_CFG : integer := (0);
   constant CFG_NODBUS : integer := 1;
-  constant CFG_DISAS : integer := 3*0;
+  constant CFG_DISAS : integer := 1;
 -- L2 Cache
   constant CFG_L2_EN : integer := 0;
   constant CFG_L2_SIZE : integer := 64;
