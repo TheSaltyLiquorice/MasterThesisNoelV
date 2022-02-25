@@ -1,0 +1,11 @@
+
+addfile -vhdl ./config.vhd
+addfile -vhdl ./cfg/config_local.vhd
+addfile -vhdl ./rtl/core/rev.vhd
+addfile -vhdl ./rtl/core/cfgmap.vhd
+addfile -vhdl ./rtl/core/noelvcore.vhd
+addfile -vhdl ./rtl/ahbrom.vhd
+addfile -vhdl ./rtl/ahbrom64.vhd
+addfile -vhdl ./rtl/ahbrom128.vhd
+addfile -vhdl ./rtl/noelvmp.vhd
+addfile -vhdl ./tb/testbench.vhd
