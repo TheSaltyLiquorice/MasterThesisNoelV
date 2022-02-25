@@ -15156,6 +15156,6 @@ begin
   end generate;
 -- pragma translate_on
 
-instr_cnt <= r.dis_dual_issue; --matteo
+instr_cnt <= r.dis_minstret; --matteo
 
 end rtl;

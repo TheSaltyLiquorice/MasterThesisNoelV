@@ -166,7 +166,7 @@ architecture hier of noelvcpu is
       fpulen        => 64,
       pmp_no_tor    => 0,
       pmp_entries   => 8,
-      pmp_g         => 10,
+      pmp_g         => 0, --edit this for pmp, originally 10
       perf_cnts     => 16,
       perf_evts     => 16,
       tbuf          => 4,
