@@ -47,3 +47,4 @@ tests = ["riscv_arithmetic_basic_test",
         "riscv_full_interrupt_test",
         "riscv_csr_test",
         "riscv_unaligned_load_store_test"]
+

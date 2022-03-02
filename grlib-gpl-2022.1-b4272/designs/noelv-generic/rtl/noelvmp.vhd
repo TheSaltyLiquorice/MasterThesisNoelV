@@ -332,7 +332,7 @@ begin
           haddr    => L2C_HADDR,
           hmask    => L2C_HMASK,
           tech     => 0,
-          kbytes   => 1024,
+          kbytes   => 2*1024,
           pipe     => 0,
           maccsz   => AHBDW,
           fname    => ramfile)
