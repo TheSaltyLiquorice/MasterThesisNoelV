@@ -130,12 +130,15 @@ dmypy.json
 # tmp files grlib
 modelsim 
 transcript 
-.mti 
+*.mti 
 stdout.log 
 vsim.wlf 
 vsim_stacktrace.vstf
-.mpf.bak 
-.mti 
-.mpf 
+*.mpf.bak 
+*.mti 
+*.mpf 
 wlft
-
+Makefile
+*.srec
+*.xise
+*.tcl

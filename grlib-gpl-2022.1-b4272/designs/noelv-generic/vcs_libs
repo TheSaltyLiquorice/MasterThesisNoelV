@@ -1,7 +1,0 @@
-mkdir -p vcs
-mkdir -p vcs/grlib 
-mkdir -p vcs/techmap 
-mkdir -p vcs/eth 
-mkdir -p vcs/opencores 
-mkdir -p vcs/gaisler 
-mkdir -p vcs/work 
