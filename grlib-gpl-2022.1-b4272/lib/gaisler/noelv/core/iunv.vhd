@@ -2981,7 +2981,8 @@ architecture rtl of iunv is
                       I_ADDI &               -- funct3
                       GPR_SP &               -- rd
                       OP_IMM;                -- addi
-            elsif rd /= "00000" then
+            --elsif rd /= "00000" then --jonathanjonsson
+              else
               -- c.lui -> lui rd, imm
               inst := imm12 &                -- imm[31:20]
                       imm12(11 downto 10) &  -- imm[19:18]
@@ -2989,7 +2990,7 @@ architecture rtl of iunv is
                       inst_in(6 downto 2) &  -- imm[16:12]
                       rd &                   -- rd
                       LUI;                   -- lui
-              -- imm /= 0 are standard HINTs.
+
             end if;
             -- c.addi16sp and c.lui are reserved with imm = 0.
             if inst_in(12) = '0' and inst_in(6 downto 2) = "00000" then
@@ -3326,6 +3327,8 @@ architecture rtl of iunv is
                       inst_in(11 downto 10) &  -- imm[4:3]
                       "000" &                  -- imm[2:0]
                       OP_STORE;                -- sd
+            else
+              xc := '1';
             end if;
 
           when others =>
