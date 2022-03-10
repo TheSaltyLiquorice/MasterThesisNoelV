@@ -36,7 +36,7 @@ GRLIB_SIMULATOR ?= ModelSim
 VCOMOPT=-explicit -O0
 
 # GRLIB Options
-VSIMOPT=-gdisas=1 -gfinish_after_en=1 -gfinish_after=100043
+VSIMOPT=-gdisas=1 -gfinish_after_en=1 -gfinish_after=110047
 
 # Simulator switches
 ifeq ("$(GRLIB_SIMULATOR)","ALDEC")
