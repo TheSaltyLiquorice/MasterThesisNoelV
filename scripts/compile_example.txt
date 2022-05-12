@@ -1,3 +1,0 @@
-/home/jonathanjonsson/MasterThesis/ncc-1.0.2-gcc/bin/riscv-gaisler-elf-gcc -static -mcmodel=medany -fvisibility=hidden -nostdlib -nostartfiles out_2022-02-16/asm_test/riscv_arithmetic_basic_test_0.S -I/home/jonathanjonsson/MasterThesis/riscv-dv/user_extension -T/home/jonathanjonsson/MasterThesis/riscv-dv/scripts/link.ld -o out_2022-02-16/asm_test/riscv_arithmetic_basic_test_0.o -march=rv64gc -mabi=lp64
-
-Wed, 16 Feb 2022 11:05:58 lib.py:186   DEBUG    '/home/jonathanjonsson/MasterThesis/ncc-1.0.2-gcc/bin/riscv-gaisler-elf-objcopy -O srec out_2022-02-16/asm_test/riscv_arithmetic_basic_test_0.o out_2022-02-16/asm_test/riscv_arithmetic_basic_test_0.srec --srec-len=16 --srec-forceS3 --gap-fill=0 --remove-section=.comment --remove-section=.riscv.attributes'
