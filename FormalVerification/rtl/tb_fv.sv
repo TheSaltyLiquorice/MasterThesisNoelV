@@ -16,10 +16,10 @@ import pmp_pkg::*;
 
 module pmp_assertions
 	#(	
-	parameter pmp_check = 1 ,  
-    parameter pmp_no_tor = 0, 
-    parameter pmp_entries = 16,
-    parameter pmp_g = 10,
+	parameter pmp_check = 1 , // PMP enabled?
+    parameter pmp_no_tor = 0, // Option to disalbe TOR mode
+    parameter pmp_entries = 16, // Maximum is 16 in this implementation
+    parameter pmp_g = 10, // PMP Granularity
     parameter pmp_msb = 55)
 
 	(
@@ -28,11 +28,11 @@ module pmp_assertions
 	input pmpaddr_vec_type pmpaddr,
 	input word64 pmpcfg0 ,
 	input word64 pmpcfg2,
-	input bit[pmp_msb:0] address,
-	input bit [1:0] acc  ,
-	input bit [1:0] prv ,
-	input bit mprv ,
-	input bit[1:0] mpp ,
+    input bit[pmp_msb:0] address, // address to test
+    input bit [1:0] acc  , //access type x/w/r
+    input bit [1:0] prv , //current privilege
+	input bit mprv , // from mstatus
+    input bit[1:0] mpp , // from mstatus
 	input bit valid ,
 	input bit ok
 	);
@@ -94,7 +94,7 @@ module pmp_assertions
 	function int napot_range_size(pmpaddr_type pmpaddr); begin	
 		for(int i = 0; i < `pmpaddrbits; i++) begin
 			if(pmpaddr[i] == 0)
-				return i+1;
+				return i+1; //return index of the first y (spec. notation)
 		end
 		return `pmpaddrbits;
 	end
@@ -109,7 +109,11 @@ module pmp_assertions
 		if(pmp_g > 1) begin
 			for(int i = 0; i < pmp_entries; i++) begin
 				if(read_address_mode(pmpcfg0, pmpcfg2, i) == `NAPOT) begin
-					if(pmpaddr[i][pmp_g-2:0] == '1)
+					// For NAPOT mode bits lower than pmp_g are not allowed to be zero
+					// This can't be a global assumption as it depends on the address mode of
+					// the current configuration. If the sum is equal to the number of entries
+					// than all addresses were legal.
+					if(pmpaddr[i][pmp_g-2:0] == '1) 
 						sum++;
 				end else
 					sum++;
@@ -130,7 +134,7 @@ module pmp_assertions
 		begin
 
 		for(int i = 0; i < pmp_entries; i++) begin
-			automatic bit[1:0] a = read_address_mode(pmpcfg0, pmpcfg2, i); //new addition, better to have a function that can read each part of pmpcfg
+			automatic bit[1:0] a = read_address_mode(pmpcfg0, pmpcfg2, i); 
 			automatic int index = 0;
 			automatic pmpaddr_type napot_pmpaddr;
 			automatic bit[pmp_msb:0] napot_address;
@@ -143,7 +147,7 @@ module pmp_assertions
 					return i;
 				end
 			end
-		else if(a == `TOR) begin //assumption is that we don't wrap around the address space on the last pmpaddr
+		else if(a == `TOR) begin 
 			if(i > 0) begin
 				if(address[pmp_msb:2+pmp_g] < pmpaddr[i][`pmpaddrbits-1:pmp_g] && address[pmp_msb:2+pmp_g] >= pmpaddr[i-1][`pmpaddrbits-1:pmp_g])
 					return i;
@@ -179,7 +183,7 @@ module pmp_assertions
 
 	for(genvar i = 0; i < pmp_entries; i++) begin	
 		address_msb_0 : assume property(pmpaddr[i][`pmpaddrbits] == 0); //We never expect the carry position to be set from the outside
-		address_max : assume property(pmpaddr[i][`pmpaddrbits-1:0] != '1); //probably a bug that causes us to use this assumption
+		address_max   : assume property(pmpaddr[i][`pmpaddrbits-1:0] != '1); // A bug that causes us to use this assumption, should be removed once fixed
 	end
 
 	property grant_perm;
@@ -196,26 +200,27 @@ module pmp_assertions
 		int index = -1;
 		@(posedge clk300p) disable iff(!rstn)
 		(( (1, index = check_valid_address(pmpaddr, address, pmpcfg0, pmpcfg2)) ##0
-			prv == `M_MODE &&
 			index == -1	&&	//look for an area that has not been set up, only m mode should have access here
 			valid_pmpaddr(pmpaddr, pmpcfg0, pmpcfg2) == pmp_entries &&
+          	prv == `M_MODE &&
 			mprv == 0
 		) |=> ok );
 	endproperty
-
+	
 	property s_u_never_grant;
+		//similar to m_always_grant but checks that S & U can't be granted access if the pmp entry is not implemented
 		int index = -1;
 		@(posedge clk300p) disable iff(!rstn)
 		(( (1, index = check_valid_address(pmpaddr, address, pmpcfg0, pmpcfg2)) ##0
-			prv != `M_MODE &&
+            index == -1	&&	
 			valid_pmpaddr(pmpaddr, pmpcfg0, pmpcfg2) == pmp_entries &&
-			index == -1	&&	
+			prv != `M_MODE &&
 			valid == 1
 		) |=> !ok );
 	
 	endproperty
 
-	//If in M mode and MPRV is set and MPP is (S or U) ? check PMP, dont think the current property will do much else than what grant_perm already does
+	//If in M mode and MPRV is set and MPP is (S or U) check that the MPP field is actually used
 	property mprv_set;
 		int index = -1;
 		@(posedge clk300p) disable iff(!rstn)
@@ -231,13 +236,14 @@ module pmp_assertions
 	endproperty
 
 	property mprv_ok_set;
+		//complement to the mprv_set property
 		int index = -1;
 		@(posedge clk300p) disable iff(!rstn)
 		(( (1, index = check_valid_address(pmpaddr, address, pmpcfg0, pmpcfg2)) ##0
 			index >= 0 &&
+            valid_pmpaddr(pmpaddr, pmpcfg0, pmpcfg2) == pmp_entries &&
 			mprv == 1 &&
 			mpp != `M_MODE && 
-			valid_pmpaddr(pmpaddr, pmpcfg0, pmpcfg2) == pmp_entries &&
 			valid == 1 &&
 			read_access_perm(pmpcfg0, pmpcfg2, acc, index) == 1 &&
 			acc != `PMP_ACCESS_X
@@ -250,8 +256,8 @@ module pmp_assertions
 		@(posedge clk300p) disable iff(!rstn)
 		(( (1, index = check_valid_address(pmpaddr, address, pmpcfg0, pmpcfg2)) ##0
 			index >= 0 &&
+          	valid_pmpaddr(pmpaddr, pmpcfg0, pmpcfg2) == pmp_entries &&
 			valid == 1 &&
-			valid_pmpaddr(pmpaddr, pmpcfg0, pmpcfg2) == pmp_entries &&
 			read_l_bit(pmpcfg0, pmpcfg2, index) == 1 &&
 			read_access_perm(pmpcfg0, pmpcfg2, acc, index) == 0			
 		) |=> !ok ); 
